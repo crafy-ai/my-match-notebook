@@ -13,6 +13,15 @@
 
 ## 本地预览
 
+可以点击仓库右上角的 **Use this template**，把项目完整复制到自己的 GitHub 账号；也可以通过 **Code > Download ZIP** 下载全部文件。
+
+使用 Git 克隆：
+
+```powershell
+git clone https://github.com/ZRonaldo7777/my-match-notebook.git
+cd my-match-notebook
+```
+
 在项目目录运行：
 
 ```powershell
@@ -21,7 +30,8 @@ python -m http.server 4173 --bind 127.0.0.1
 
 随后访问 `http://127.0.0.1:4173/`。
 
+这是一个纯静态项目，不需要安装 npm 依赖，直接保留文件目录即可运行。
+
 ## 部署
 
 推送到 GitHub 默认分支后，`部署 GitHub Pages` 工作流会自动发布网站。
-
