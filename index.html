@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>我的观赛手札</title>
+    <link rel="stylesheet" href="styles.css?v=20260608-wc-standings5" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">北京时间 · 个人观赛表</p>
+        <h1>我的观赛手札</h1>
+      </div>
+      <div class="source-note" id="generatedAt"></div>
+    </header>
+
+    <main>
+      <section class="overview" aria-label="赛程概览">
+        <article>
+          <span id="totalCount">0</span>
+          <p>总场次</p>
+        </article>
+        <article>
+          <span id="nextCount">0</span>
+          <p>未来比赛</p>
+        </article>
+        <article>
+          <span id="lateCount">0</span>
+          <p>23:00 后</p>
+        </article>
+        <article>
+          <span id="favoriteCount">0</span>
+          <p>已收藏</p>
+        </article>
+      </section>
+
+      <section class="controls" aria-label="筛选赛程">
+        <div class="tabs" role="tablist" aria-label="赛事">
+          <button class="tab active" data-filter="all" type="button">全部</button>
+          <button class="tab" data-filter="worldcup" type="button">世界杯</button>
+          <button class="tab" data-filter="cs2" type="button">CS2 科隆</button>
+        </div>
+        <label class="search">
+          <span>搜索</span>
+          <input id="searchInput" type="search" placeholder="队伍、阶段、城市、场馆" />
+        </label>
+        <label class="toggle">
+          <input id="futureOnly" type="checkbox" />
+          <span>只看未来</span>
+        </label>
+        <label class="toggle">
+          <input id="lateOnly" type="checkbox" />
+          <span>深夜场</span>
+        </label>
+        <label class="toggle">
+          <input id="normalTimeOnly" type="checkbox" />
+          <span>正常时间</span>
+        </label>
+        <label class="toggle">
+          <input id="favoritesOnly" type="checkbox" />
+          <span>收藏</span>
+        </label>
+      </section>
+
+      <section class="insights" id="tournamentInsights" aria-label="晋级树和积分榜"></section>
+
+      <section class="timeline" id="timeline" aria-live="polite"></section>
+    </main>
+
+    <footer>
+      <div id="sources"></div>
+    </footer>
+
+    <script src="data.js?v=20260611-latest1"></script>
+    <script src="updates.js?v=20260611-latest1"></script>
+    <script src="news.js?v=20260611-latest1"></script>
+    <script src="app.js?v=20260611-latest1"></script>
+  </body>
+</html>
