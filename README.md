@@ -18,7 +18,7 @@
 使用 Git 克隆：
 
 ```powershell
-git clone https://github.com/ZRonaldo7777/my-match-notebook.git
+git clone https://github.com/crafy-ai/my-match-notebook.git
 cd my-match-notebook
 ```
 
@@ -29,7 +29,7 @@ python -m http.server 4173 --bind 127.0.0.1
 ```
 
 随后访问 `http://127.0.0.1:4173/`。
-
+或者直接本地保存后双击index.html也可以直接本地使用。
 这是一个纯静态项目，不需要安装 npm 依赖，直接保留文件目录即可运行。
 
 ## 部署
