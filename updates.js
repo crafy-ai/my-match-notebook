@@ -1,6 +1,6 @@
 window.SCHEDULE_UPDATES = {
-  updatedAt: "2026-06-11T20:24:00+08:00",
-  notes: "CS2 科隆 Major 已更新至 2026-06-11 Stage 3 首轮；Stage 2 最终轮赛果已补齐，Stage 3 已结束、进行中及待赛场次均按北京时间记录。世界杯揭幕战将于北京时间 6 月 12 日 03:00 开始。",
+  updatedAt: "2026-06-15T10:30:00+08:00",
+  notes: "世界杯已更新至北京时间 2026-06-15 上午场，前 11 场赛果已补齐，瑞典对突尼斯标记为进行中。CS2 科隆 Major 已更新至 Stage 3 最终轮，今晚三场 2-2 决胜赛均按北京时间记录。",
   cs2Results: [
     { id: "cs2-001", title: "M80 vs Lynn Vision", matchLabel: "第一阶段第 1 轮第 1 场", utc: "2026-06-02T10:30:00.000Z", stage: "Stage 1 Round 1", home: "M80", away: "Lynn Vision", score: [13, 8], winner: "M80", status: "已结束", note: "Stage 1 Round 1" },
     { id: "cs2-002", title: "SINNERS vs FlyQuest", matchLabel: "第一阶段第 1 轮第 2 场", utc: "2026-06-02T10:30:00.000Z", stage: "Stage 1 Round 1", home: "SINNERS", away: "FlyQuest", score: [14, 16], winner: "FlyQuest", status: "已结束", note: "Stage 1 Round 1" },
@@ -70,15 +70,56 @@ window.SCHEDULE_UPDATES = {
     { id: "cs2-089", matchNo: 89, title: "Legacy vs TYLOO", matchLabel: "第二阶段第 5 轮第 2 场", utc: "2026-06-09T14:30:00.000Z", stage: "Stage 2 Round 5", home: "Legacy", away: "TYLOO", score: [2, 0], winner: "Legacy", status: "已结束", note: "2-2 决胜赛" },
     { id: "cs2-090", matchNo: 90, title: "BIG vs B8", matchLabel: "第二阶段第 5 轮第 3 场", utc: "2026-06-09T17:00:00.000Z", stage: "Stage 2 Round 5", home: "BIG", away: "B8", score: [0, 2], winner: "B8", status: "已结束", note: "2-2 决胜赛" },
     { id: "cs2-041", matchNo: 41, title: "9z vs PARIVISION", matchLabel: "第三阶段第 1 轮第 1 场", utc: "2026-06-11T09:00:00.000Z", stage: "Stage 3 Round 1", home: "9z", away: "PARIVISION", score: [2, 1], winner: "9z", status: "已结束", note: "第三阶段首轮 · 三局两胜" },
-    { id: "cs2-042", matchNo: 42, title: "The MongolZ vs BetBoom", matchLabel: "第三阶段第 1 轮第 2 场", utc: "2026-06-11T09:00:00.000Z", stage: "Stage 3 Round 1", home: "The MongolZ", away: "BetBoom", score: [1, 2], winner: "BetBoom", status: "已结束", note: "第三阶段首轮 · 三局两胜" }
+    { id: "cs2-042", matchNo: 42, title: "The MongolZ vs BetBoom", matchLabel: "第三阶段第 1 轮第 2 场", utc: "2026-06-11T09:00:00.000Z", stage: "Stage 3 Round 1", home: "The MongolZ", away: "BetBoom", score: [1, 2], winner: "BetBoom", status: "已结束", note: "第三阶段首轮 · 三局两胜" },
+    { id: "cs2-043", matchNo: 43, title: "MOUZ vs Legacy", matchLabel: "第三阶段第 1 轮第 3 场", utc: "2026-06-11T12:10:00.000Z", stage: "Stage 3 Round 1", home: "MOUZ", away: "Legacy", score: [2, 0], winner: "MOUZ", status: "已结束", note: "第三阶段首轮 · 三局两胜" },
+    { id: "cs2-044", matchNo: 44, title: "Vitality vs FUT", matchLabel: "第三阶段第 1 轮第 4 场", utc: "2026-06-11T12:10:00.000Z", stage: "Stage 3 Round 1", home: "Vitality", away: "FUT", score: [2, 1], winner: "Vitality", status: "已结束", note: "第三阶段首轮 · 三局两胜" },
+    { id: "cs2-045", matchNo: 45, title: "Falcons vs G2", matchLabel: "第三阶段第 1 轮第 5 场", utc: "2026-06-11T14:00:00.000Z", stage: "Stage 3 Round 1", home: "Falcons", away: "G2", score: [2, 1], winner: "Falcons", status: "已结束", note: "第三阶段首轮 · 三局两胜" },
+    { id: "cs2-046", matchNo: 46, title: "FURIA vs B8", matchLabel: "第三阶段第 1 轮第 6 场", utc: "2026-06-11T14:00:00.000Z", stage: "Stage 3 Round 1", home: "FURIA", away: "B8", score: [2, 0], winner: "FURIA", status: "已结束", note: "第三阶段首轮 · 三局两胜" },
+    { id: "cs2-047", matchNo: 47, title: "Aurora vs Monte", matchLabel: "第三阶段第 1 轮第 7 场", utc: "2026-06-11T16:30:00.000Z", stage: "Stage 3 Round 1", home: "Aurora", away: "Monte", score: [2, 0], winner: "Aurora", status: "已结束", note: "第三阶段首轮 · 三局两胜" },
+    { id: "cs2-048", matchNo: 48, title: "NAVI vs Spirit", matchLabel: "第三阶段第 1 轮第 8 场", utc: "2026-06-11T16:30:00.000Z", stage: "Stage 3 Round 1", home: "NAVI", away: "Spirit", score: [0, 2], winner: "Spirit", status: "已结束", note: "第三阶段首轮 · 三局两胜" },
+    { id: "cs2-049", matchNo: 49, title: "FURIA vs MOUZ", matchLabel: "第三阶段第 2 轮第 1 场", utc: "2026-06-12T09:00:00.000Z", stage: "Stage 3 Round 2", home: "FURIA", away: "MOUZ", score: [2, 1], winner: "FURIA", status: "已结束", note: "1-0 组" },
+    { id: "cs2-091", matchNo: 91, title: "B8 vs The MongolZ", matchLabel: "第三阶段第 2 轮第 2 场", utc: "2026-06-12T09:00:00.000Z", stage: "Stage 3 Round 2", home: "B8", away: "The MongolZ", score: [0, 2], winner: "The MongolZ", status: "已结束", note: "0-1 组" },
+    { id: "cs2-092", matchNo: 92, title: "FUT vs G2", matchLabel: "第三阶段第 2 轮第 3 场", utc: "2026-06-12T11:30:00.000Z", stage: "Stage 3 Round 2", home: "FUT", away: "G2", score: [1, 2], winner: "G2", status: "已结束", note: "0-1 组" },
+    { id: "cs2-093", matchNo: 93, title: "PARIVISION vs Monte", matchLabel: "第三阶段第 2 轮第 4 场", utc: "2026-06-12T11:30:00.000Z", stage: "Stage 3 Round 2", home: "PARIVISION", away: "Monte", score: [1, 2], winner: "Monte", status: "已结束", note: "0-1 组" },
+    { id: "cs2-094", matchNo: 94, title: "Falcons vs BetBoom", matchLabel: "第三阶段第 2 轮第 5 场", utc: "2026-06-12T14:00:00.000Z", stage: "Stage 3 Round 2", home: "Falcons", away: "BetBoom", score: [0, 2], winner: "BetBoom", status: "已结束", note: "1-0 组" },
+    { id: "cs2-095", matchNo: 95, title: "NAVI vs Legacy", matchLabel: "第三阶段第 2 轮第 6 场", utc: "2026-06-12T14:00:00.000Z", stage: "Stage 3 Round 2", home: "NAVI", away: "Legacy", score: [2, 0], winner: "NAVI", status: "已结束", note: "0-1 组" },
+    { id: "cs2-096", matchNo: 96, title: "Aurora vs Spirit", matchLabel: "第三阶段第 2 轮第 7 场", utc: "2026-06-12T16:30:00.000Z", stage: "Stage 3 Round 2", home: "Aurora", away: "Spirit", score: [1, 2], winner: "Spirit", status: "已结束", note: "1-0 组" },
+    { id: "cs2-097", matchNo: 97, title: "Vitality vs 9z", matchLabel: "第三阶段第 2 轮第 8 场", utc: "2026-06-12T16:30:00.000Z", stage: "Stage 3 Round 2", home: "Vitality", away: "9z", score: [1, 2], winner: "9z", status: "已结束", note: "1-0 组" },
+    { id: "cs2-051", matchNo: 51, title: "BetBoom vs FURIA", matchLabel: "第三阶段第 3 轮第 1 场", utc: "2026-06-13T09:00:00.000Z", stage: "Stage 3 Round 3", home: "BetBoom", away: "FURIA", score: [0, 2], winner: "FURIA", status: "已结束", note: "2-0 晋级赛" },
+    { id: "cs2-098", matchNo: 98, title: "NAVI vs The MongolZ", matchLabel: "第三阶段第 3 轮第 2 场", utc: "2026-06-13T09:00:00.000Z", stage: "Stage 3 Round 3", home: "NAVI", away: "The MongolZ", score: [2, 1], winner: "NAVI", status: "已结束", note: "1-1 组" },
+    { id: "cs2-099", matchNo: 99, title: "B8 vs FUT", matchLabel: "第三阶段第 3 轮第 3 场", utc: "2026-06-13T11:30:00.000Z", stage: "Stage 3 Round 3", home: "B8", away: "FUT", score: [1, 2], winner: "FUT", status: "已结束", note: "0-2 淘汰赛" },
+    { id: "cs2-100", matchNo: 100, title: "Spirit vs 9z", matchLabel: "第三阶段第 3 轮第 4 场", utc: "2026-06-13T11:30:00.000Z", stage: "Stage 3 Round 3", home: "Spirit", away: "9z", score: [2, 1], winner: "Spirit", status: "已结束", note: "2-0 晋级赛" },
+    { id: "cs2-101", matchNo: 101, title: "Aurora vs G2", matchLabel: "第三阶段第 3 轮第 5 场", utc: "2026-06-13T14:00:00.000Z", stage: "Stage 3 Round 3", home: "Aurora", away: "G2", score: [2, 0], winner: "Aurora", status: "已结束", note: "1-1 组" },
+    { id: "cs2-102", matchNo: 102, title: "PARIVISION vs Legacy", matchLabel: "第三阶段第 3 轮第 6 场", utc: "2026-06-13T14:00:00.000Z", stage: "Stage 3 Round 3", home: "PARIVISION", away: "Legacy", score: [0, 2], winner: "Legacy", status: "已结束", note: "0-2 淘汰赛" },
+    { id: "cs2-103", matchNo: 103, title: "Vitality vs MOUZ", matchLabel: "第三阶段第 3 轮第 7 场", utc: "2026-06-13T16:30:00.000Z", stage: "Stage 3 Round 3", home: "Vitality", away: "MOUZ", score: [2, 1], winner: "Vitality", status: "已结束", note: "1-1 组" },
+    { id: "cs2-104", matchNo: 104, title: "Falcons vs Monte", matchLabel: "第三阶段第 3 轮第 8 场", utc: "2026-06-13T16:30:00.000Z", stage: "Stage 3 Round 3", home: "Falcons", away: "Monte", score: [2, 1], winner: "Falcons", status: "已结束", note: "1-1 组" },
+    { id: "cs2-054", matchNo: 54, title: "BetBoom vs Vitality", matchLabel: "第三阶段第 4 轮第 1 场", utc: "2026-06-14T12:00:00.000Z", stage: "Stage 3 Round 4", home: "BetBoom", away: "Vitality", score: [0, 2], winner: "Vitality", status: "已结束", note: "2-1 晋级赛" },
+    { id: "cs2-105", matchNo: 105, title: "MOUZ vs FUT", matchLabel: "第三阶段第 4 轮第 2 场", utc: "2026-06-14T12:00:00.000Z", stage: "Stage 3 Round 4", home: "MOUZ", away: "FUT", score: [1, 2], winner: "FUT", status: "已结束", note: "1-2 淘汰赛" },
+    { id: "cs2-106", matchNo: 106, title: "Aurora vs 9z", matchLabel: "第三阶段第 4 轮第 3 场", utc: "2026-06-14T14:30:00.000Z", stage: "Stage 3 Round 4", home: "Aurora", away: "9z", score: [2, 0], winner: "Aurora", status: "已结束", note: "2-1 晋级赛" },
+    { id: "cs2-107", matchNo: 107, title: "The MongolZ vs Monte", matchLabel: "第三阶段第 4 轮第 4 场", utc: "2026-06-14T14:30:00.000Z", stage: "Stage 3 Round 4", home: "The MongolZ", away: "Monte", score: [2, 1], winner: "The MongolZ", status: "已结束", note: "1-2 淘汰赛" },
+    { id: "cs2-108", matchNo: 108, title: "Falcons vs NAVI", matchLabel: "第三阶段第 4 轮第 5 场", utc: "2026-06-14T17:00:00.000Z", stage: "Stage 3 Round 4", home: "Falcons", away: "NAVI", score: [2, 1], winner: "Falcons", status: "已结束", note: "2-1 晋级赛" },
+    { id: "cs2-109", matchNo: 109, title: "G2 vs Legacy", matchLabel: "第三阶段第 4 轮第 6 场", utc: "2026-06-14T17:00:00.000Z", stage: "Stage 3 Round 4", home: "G2", away: "Legacy", score: [2, 0], winner: "G2", status: "已结束", note: "1-2 淘汰赛" }
   ],
   cs2Upcoming: [
-    { id: "cs2-043", matchNo: 43, title: "MOUZ vs Legacy", matchLabel: "第三阶段第 1 轮第 3 场", utc: "2026-06-11T12:10:00.000Z", stage: "Stage 3 Round 1", home: "MOUZ", away: "Legacy", status: "进行中", note: "第三阶段首轮 · 三局两胜" },
-    { id: "cs2-044", matchNo: 44, title: "Vitality vs FUT", matchLabel: "第三阶段第 1 轮第 4 场", utc: "2026-06-11T12:10:00.000Z", stage: "Stage 3 Round 1", home: "Vitality", away: "FUT", status: "进行中", note: "第三阶段首轮 · 三局两胜" },
-    { id: "cs2-045", matchNo: 45, title: "Falcons vs G2", matchLabel: "第三阶段第 1 轮第 5 场", utc: "2026-06-11T14:00:00.000Z", stage: "Stage 3 Round 1", home: "Falcons", away: "G2", status: "已公布", note: "第三阶段首轮 · 三局两胜" },
-    { id: "cs2-046", matchNo: 46, title: "FURIA vs B8", matchLabel: "第三阶段第 1 轮第 6 场", utc: "2026-06-11T14:00:00.000Z", stage: "Stage 3 Round 1", home: "FURIA", away: "B8", status: "已公布", note: "第三阶段首轮 · 三局两胜" },
-    { id: "cs2-047", matchNo: 47, title: "Aurora vs Monte", matchLabel: "第三阶段第 1 轮第 7 场", utc: "2026-06-11T16:30:00.000Z", stage: "Stage 3 Round 1", home: "Aurora", away: "Monte", status: "已公布", note: "第三阶段首轮 · 三局两胜" },
-    { id: "cs2-048", matchNo: 48, title: "NAVI vs Spirit", matchLabel: "第三阶段第 1 轮第 8 场", utc: "2026-06-11T16:30:00.000Z", stage: "Stage 3 Round 1", home: "NAVI", away: "Spirit", status: "已公布", note: "第三阶段首轮 · 三局两胜" }
+    { id: "cs2-056", matchNo: 56, title: "9z vs The MongolZ", matchLabel: "第三阶段第 5 轮第 1 场", utc: "2026-06-15T12:00:00.000Z", stage: "Stage 3 Round 5", home: "9z", away: "The MongolZ", status: "已公布", note: "2-2 决胜赛" },
+    { id: "cs2-110", matchNo: 110, title: "BetBoom vs FUT", matchLabel: "第三阶段第 5 轮第 2 场", utc: "2026-06-15T14:30:00.000Z", stage: "Stage 3 Round 5", home: "BetBoom", away: "FUT", status: "已公布", note: "2-2 决胜赛" },
+    { id: "cs2-111", matchNo: 111, title: "NAVI vs G2", matchLabel: "第三阶段第 5 轮第 3 场", utc: "2026-06-15T17:00:00.000Z", stage: "Stage 3 Round 5", home: "NAVI", away: "G2", status: "已公布", note: "2-2 决胜赛" }
+  ],
+  worldcupResults: [
+    { id: "wc-001", score: [3, 1], winner: "Mexico", status: "已结束", note: "A 组第 1 轮" },
+    { id: "wc-002", score: [1, 2], winner: "Czechia", status: "已结束", note: "A 组第 1 轮" },
+    { id: "wc-003", score: [0, 1], winner: "Bosnia and Herzegovina", status: "已结束", note: "B 组第 1 轮" },
+    { id: "wc-004", score: [2, 1], winner: "United States", status: "已结束", note: "D 组第 1 轮" },
+    { id: "wc-005", score: [0, 2], winner: "Scotland", status: "已结束", note: "C 组第 1 轮" },
+    { id: "wc-006", score: [2, 2], winner: "", status: "已结束", note: "D 组第 1 轮" },
+    { id: "wc-007", score: [2, 0], winner: "Brazil", status: "已结束", note: "C 组第 1 轮" },
+    { id: "wc-008", score: [0, 3], winner: "Switzerland", status: "已结束", note: "B 组第 1 轮" },
+    { id: "wc-009", score: [1, 0], winner: "Côte d'Ivoire", status: "已结束", note: "E 组第 1 轮" },
+    { id: "wc-010", score: [4, 0], winner: "Germany", status: "已结束", note: "E 组第 1 轮" },
+    { id: "wc-011", score: [2, 0], winner: "Netherlands", status: "已结束", note: "F 组第 1 轮" }
+  ],
+  worldcupUpcoming: [
+    { id: "wc-012", status: "进行中", note: "F 组第 1 轮 · 北京时间 10:00 开球" }
   ],
 };
 
@@ -110,6 +151,8 @@ window.SCHEDULE_UPDATES = {
 
   updates.cs2Results.forEach(upsert);
   updates.cs2Upcoming.forEach(upsert);
+  updates.worldcupResults.forEach(upsert);
+  updates.worldcupUpcoming.forEach(upsert);
 
   data.events.sort((a, b) => new Date(a.utc) - new Date(b.utc) || a.matchNo - b.matchNo);
 })();

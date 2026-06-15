@@ -859,6 +859,65 @@ function worldCupGroupTeams() {
   return [...groups.entries()].sort(([a], [b]) => a.localeCompare(b));
 }
 
+function worldCupGroupRecords(group, teams) {
+  const records = new Map(
+    [...teams].map((team) => [team, { team, played: 0, wins: 0, draws: 0, points: 0, goalsFor: 0, goalsAgainst: 0 }]),
+  );
+
+  DATA.events
+    .filter(
+      (event) =>
+        event.tournament === "worldcup" &&
+        event.stage === "Group Stage" &&
+        event.group === group &&
+        Array.isArray(event.score),
+    )
+    .forEach((event) => {
+      const home = records.get(event.home);
+      const away = records.get(event.away);
+      if (!home || !away) return;
+      const [homeScore, awayScore] = event.score;
+      home.played += 1;
+      away.played += 1;
+      home.goalsFor += homeScore;
+      home.goalsAgainst += awayScore;
+      away.goalsFor += awayScore;
+      away.goalsAgainst += homeScore;
+      if (homeScore === awayScore) {
+        home.draws += 1;
+        away.draws += 1;
+        home.points += 1;
+        away.points += 1;
+      } else if (homeScore > awayScore) {
+        home.wins += 1;
+        home.points += 3;
+      } else {
+        away.wins += 1;
+        away.points += 3;
+      }
+    });
+
+  return [...records.values()].sort((a, b) => {
+    if (b.points !== a.points) return b.points - a.points;
+    const goalDifference = (b.goalsFor - b.goalsAgainst) - (a.goalsFor - a.goalsAgainst);
+    if (goalDifference) return goalDifference;
+    if (b.goalsFor !== a.goalsFor) return b.goalsFor - a.goalsFor;
+    return (FIFA_RANKINGS[a.team]?.rank || 999) - (FIFA_RANKINGS[b.team]?.rank || 999);
+  });
+}
+
+function renderWorldCupStandingRows(group, teams) {
+  return worldCupGroupRecords(group, teams)
+    .map((record) => `
+      <tr>
+        <td>${teamLogo({ tournament: "worldcup" }, record.team)}<span>${displayTeam({ tournament: "worldcup" }, record.team)}</span></td>
+        <td>${record.played}</td><td>${record.wins}</td><td>${record.draws}</td><td>${record.points}</td>
+        <td>${rankLabel({ tournament: "worldcup" }, record.team)}</td>
+      </tr>
+    `)
+    .join("");
+}
+
 function renderWorldCupBracket() {
   return `
     <div class="bracket-scroll">
@@ -876,16 +935,7 @@ function renderWorldCupBracket() {
 function renderWorldCupStandingsTable() {
   return worldCupGroupTeams()
     .map(([group, teams]) => {
-      const rows = [...teams]
-        .sort((a, b) => (FIFA_RANKINGS[a]?.rank || 999) - (FIFA_RANKINGS[b]?.rank || 999))
-        .map((team) => `
-          <tr>
-            <td>${teamLogo({ tournament: "worldcup" }, team)}<span>${displayTeam({ tournament: "worldcup" }, team)}</span></td>
-            <td>0</td><td>0</td><td>0</td><td>0</td>
-            <td>${rankLabel({ tournament: "worldcup" }, team)}</td>
-          </tr>
-        `)
-        .join("");
+      const rows = renderWorldCupStandingRows(group, teams);
       return `
         <div class="standing-group">
           <h4>${GROUP_LETTERS[group] || group}组</h4>
@@ -902,16 +952,7 @@ function renderWorldCupStandingsTable() {
 function renderWorldCupStandings() {
   const groups = worldCupGroupTeams()
     .map(([group, teams]) => {
-      const rows = [...teams]
-        .sort((a, b) => (FIFA_RANKINGS[a]?.rank || 999) - (FIFA_RANKINGS[b]?.rank || 999))
-        .map((team) => `
-          <tr>
-            <td>${teamLogo({ tournament: "worldcup" }, team)}<span>${displayTeam({ tournament: "worldcup" }, team)}</span></td>
-            <td>0</td><td>0</td><td>0</td><td>0</td>
-            <td>${rankLabel({ tournament: "worldcup" }, team)}</td>
-          </tr>
-        `)
-        .join("");
+      const rows = renderWorldCupStandingRows(group, teams);
 
       return `
         <div class="group-chip" tabindex="0">
@@ -1126,7 +1167,7 @@ function renderInsightBlock(type) {
   const isWorldCup = type === "worldcup";
   const title = isWorldCup ? "世界杯态势" : "CS2 科隆 Major 态势";
   const note = isWorldCup
-    ? "小组赛尚未开赛，积分榜先按 0 分展示；淘汰赛对阵会随晋级结果更新。"
+    ? "小组赛已开赛，积分榜按已结束比赛自动计算；进行中的比赛会在赛后计入。"
     : `当前显示第${chineseStageNumber(activeCs2StageNumber())}阶段战绩，积分榜已按已结束比赛自动计算胜负。`;
   const news = renderNewsTicker(type);
   const standings = isWorldCup ? renderWorldCupStandings() : renderCs2Standings();
