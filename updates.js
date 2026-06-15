@@ -106,17 +106,17 @@ window.SCHEDULE_UPDATES = {
     { id: "cs2-111", matchNo: 111, title: "NAVI vs G2", matchLabel: "第三阶段第 5 轮第 3 场", utc: "2026-06-15T17:00:00.000Z", stage: "Stage 3 Round 5", home: "NAVI", away: "G2", status: "已公布", note: "2-2 决胜赛" }
   ],
   worldcupResults: [
-    { id: "wc-001", score: [3, 1], winner: "Mexico", status: "已结束", note: "A 组第 1 轮" },
-    { id: "wc-002", score: [1, 2], winner: "Czechia", status: "已结束", note: "A 组第 1 轮" },
-    { id: "wc-003", score: [0, 1], winner: "Bosnia and Herzegovina", status: "已结束", note: "B 组第 1 轮" },
-    { id: "wc-004", score: [2, 1], winner: "United States", status: "已结束", note: "D 组第 1 轮" },
-    { id: "wc-005", score: [0, 2], winner: "Scotland", status: "已结束", note: "C 组第 1 轮" },
-    { id: "wc-006", score: [2, 2], winner: "", status: "已结束", note: "D 组第 1 轮" },
-    { id: "wc-007", score: [2, 0], winner: "Brazil", status: "已结束", note: "C 组第 1 轮" },
-    { id: "wc-008", score: [0, 3], winner: "Switzerland", status: "已结束", note: "B 组第 1 轮" },
+    { id: "wc-001", score: [2, 0], winner: "Mexico", status: "已结束", note: "A 组第 1 轮" },
+    { id: "wc-002", score: [2, 1], winner: "Korea Republic", status: "已结束", note: "A 组第 1 轮" },
+    { id: "wc-003", score: [1, 1], winner: "", status: "已结束", note: "B 组第 1 轮" },
+    { id: "wc-004", score: [4, 1], winner: "United States", status: "已结束", note: "D 组第 1 轮" },
+    { id: "wc-005", score: [0, 1], winner: "Scotland", status: "已结束", note: "C 组第 1 轮" },
+    { id: "wc-006", score: [2, 0], winner: "Australia", status: "已结束", note: "D 组第 1 轮" },
+    { id: "wc-007", score: [1, 1], winner: "", status: "已结束", note: "C 组第 1 轮" },
+    { id: "wc-008", score: [1, 1], winner: "", status: "已结束", note: "B 组第 1 轮" },
     { id: "wc-009", score: [1, 0], winner: "Côte d'Ivoire", status: "已结束", note: "E 组第 1 轮" },
-    { id: "wc-010", score: [4, 0], winner: "Germany", status: "已结束", note: "E 组第 1 轮" },
-    { id: "wc-011", score: [2, 0], winner: "Netherlands", status: "已结束", note: "F 组第 1 轮" }
+    { id: "wc-010", score: [7, 1], winner: "Germany", status: "已结束", note: "E 组第 1 轮" },
+    { id: "wc-011", score: [2, 2], winner: "", status: "已结束", note: "F 组第 1 轮" }
   ],
   worldcupUpcoming: [
     { id: "wc-012", status: "进行中", note: "F 组第 1 轮 · 北京时间 10:00 开球" }
