@@ -1,42 +1,42 @@
-# 观赛安排 Web 计划书
+# Match Schedule Web Plan
 
-## 目标
+## Goal
 
-制作一个本地可浏览的比赛观看安排页面，集中记录 2026 年世界杯和 CS2 IEM Cologne Major 2026 的赛程。所有时间统一换算为中国北京时间，便于后续按兴趣筛选、收藏和安排熬夜场。
+Build a locally browsable match schedule page that collects the 2026 World Cup and CS2 IEM Cologne Major 2026 fixtures. All times are displayed in US Eastern Time (ET) so matches can be filtered, favorited, and planned around a North American viewing schedule.
 
-## 数据范围
+## Data Scope
 
-- 世界杯：收录 104 场完整赛程。小组赛显示明确队伍，淘汰赛在赛果产生前显示晋级路径，例如 `Match 101 Winner`。
-- CS2 科隆 Major：收录官方赛制阶段和当前已公布的开赛时间。首轮和直接邀请队伍已明确，瑞士轮后续对阵以 `TBD` 标记，因为会根据前序赛果动态生成。
+- World Cup: the full 104-match schedule. Group-stage matches show confirmed teams; knockout matches show the advancement path before results exist, for example `Match 101 Winner`.
+- CS2 Cologne Major: official stage format and currently announced start times. First-round and directly invited teams are confirmed; later Swiss-stage pairings are marked `TBD` because they are generated from previous results.
 
-## 数据来源
+## Data Sources
 
-- FIFA 官方赛事页：用于确认 2026 世界杯赛事、阶段和赛程框架。
-- MatchTimes World Cup schedule：用于逐场读取 UTC 开球时间、比赛编号、队伍/晋级路径、球场和城市。
-- FIFA 官方排名 API：用于记录 2026-04-01 发布的当前男足国家队排名和积分。
-- FlagCDN 国旗 SVG：用于把世界杯国家队国旗保存到本地 `assets/teams/worldcup/`，避免 emoji 国旗显示异常。
-- CS2 Major 官方站与 ESL/IEM 公开信息：用于确认 IEM Cologne Major 2026 日期、阶段和场馆。
-- HLTV Valve Global Ranking / Strafe 赛事指南：用于补齐 CS2 当前积分排名、各阶段开赛时段和已公布对阵。
-- CS2 Major 官方队伍接口：用于下载 CS2 队伍官方队徽到本地 `assets/teams/cs2/`。
+- FIFA official tournament page: confirms the 2026 World Cup events, stages, and schedule structure.
+- MatchTimes World Cup schedule: reads UTC kickoff times, match numbers, teams/advancement paths, venues, and cities match by match.
+- FIFA official ranking API: records the current men's national team rankings and points published on 2026-04-01.
+- FlagCDN flag SVGs: saves World Cup national flags locally under `assets/teams/worldcup/` to avoid emoji flag rendering issues.
+- CS2 Major official site and public ESL/IEM information: confirms IEM Cologne Major 2026 dates, stages, and venues.
+- HLTV Valve Global Ranking / Strafe event guide: fills in current CS2 ratings, stage start windows, and announced matchups.
+- CS2 Major official team API: downloads official CS2 team logos to `assets/teams/cs2/`.
 
-## 功能规划
+## Feature Plan
 
-- 首页概览：展示总场次、今日之后最近比赛、收藏数量和深夜场数量。
-- 标签筛选：世界杯、CS2、全部。
-- 文本搜索：按队伍、阶段、场馆、城市检索。
-- 快捷筛选：只看未来、只看收藏、只看北京时间 23:00 后的深夜场。
-- 收藏功能：用浏览器 `localStorage` 保存想看的比赛。
-- 重点信息：每场显示北京时间日期、时间、星期、队伍、阶段、场馆和数据状态。
-- 队伍信息：国家队显示国旗和国际足联排名，CS2 队伍显示队徽样式标识和当前积分排名。
-- 赛事态势：在筛选栏下方提供世界杯和 CS2 Major 的晋级树状图与实时积分榜；未开赛时显示 0 分/0-0 初始状态，后续可接入赛果更新。
-- 晋级树视觉：使用生成式图片制作世界杯与 CS2 Major 两张晋级树视觉底图，网页中保留阶段标签和积分榜，避免纯 HTML 树状图过于生硬。
-- 世界杯积分榜交互：常态只显示各小组标签，鼠标悬停或键盘聚焦时展开该组完整积分详情，移开后自动收起。
-- 数据维护：保留 `scripts/build-data.mjs`，后续赛程变化时可重新生成 `data.js`。
+- Homepage overview: total matches, the next upcoming match, favorites count, and late-night match count.
+- Tab filters: World Cup, CS2, and All.
+- Text search: search by team, stage, venue, or city.
+- Quick filters: future matches only, favorites only, and late-night matches after 23:00 ET.
+- Favorites: save matches you want to watch in browser `localStorage`.
+- Key information: each match shows the ET date, time, weekday, teams, stage, venue, and data status.
+- Team information: national teams show flags and FIFA rankings; CS2 teams show logo treatment and current rating rank.
+- Tournament picture: a bracket and live standings for the World Cup and CS2 Major below the filter bar; before matches start, the initial 0-point / 0-0 state is shown, with results updated later.
+- Bracket visuals: generated images provide the World Cup and CS2 Major bracket backgrounds, while stage labels and standings stay in HTML to avoid overly rigid pure-HTML trees.
+- World Cup standings interaction: only group labels are shown by default; hovering or focusing expands the full group table, and it collapses when the pointer leaves.
+- Data maintenance: keep `scripts/build-data.mjs` so `data.js` can be regenerated when the schedule changes.
 
-## 执行步骤
+## Execution Steps
 
-1. 抓取世界杯完整赛程并生成统一数据结构。
-2. 整理 CS2 科隆 Major 的阶段赛程和待定对阵。
-3. 构建静态网页 UI、筛选、搜索和收藏。
-4. 用浏览器打开本地页面做基础可视检查。
-5. 记录来源和维护方式，方便后续继续扩展。
+1. Fetch the full World Cup schedule and generate a unified data structure.
+2. Organize CS2 Cologne Major stage schedules and pending matchups.
+3. Build the static UI, filters, search, and favorites.
+4. Open the local page in a browser for a basic visual check.
+5. Record sources and maintenance notes for future extensions.

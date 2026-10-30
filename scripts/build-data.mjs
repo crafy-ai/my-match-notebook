@@ -61,7 +61,7 @@ function toWorldCupEvent(match) {
     venue: match.venue?.name || "",
     city: match.venue?.city || "",
     country: match.venue?.country || "",
-    status: home.includes("Match ") || away.includes("Match ") ? "待定晋级路径" : "已公布",
+    status: home.includes("Match ") || away.includes("Match ") ? "TBD path" : "Scheduled",
     source: "MatchTimes / FIFA schedule",
   };
 }
@@ -143,7 +143,7 @@ const cs2Events = [
   venue: stage.startsWith("Playoffs") ? "LANXESS Arena" : "IEM Cologne Major studio stage",
   city: "Cologne",
   country: "Germany",
-  status: home.includes("TBD") || away.includes("TBD") ? "待定对阵" : "已公布",
+  status: home.includes("TBD") || away.includes("TBD") ? "TBD matchup" : "Scheduled",
   note,
   source: "CS2 Major / HLTV / Strafe schedule",
 }));
@@ -163,7 +163,7 @@ async function main() {
 
   const generated = {
     generatedAt: new Date().toISOString(),
-    timezone: "Asia/Shanghai",
+    timezone: "America/New_York",
     sources: [
       {
         name: "FIFA World Cup 2026",

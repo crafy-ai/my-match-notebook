@@ -1,43 +1,43 @@
-# 我的观赛手札
+# My Match Notebook
 
-一个以北京时间整理世界杯与 CS2 科隆 Major 赛程的静态网页。
+A static site that organizes the 2026 World Cup and CS2 IEM Cologne Major schedules in Eastern Time.
 
-## 在线访问
+## Live Site
 
-[打开“我的观赛手札”在线页面](https://crafy-ai.github.io/my-match-notebook/)
+[Open My Match Notebook](https://crafy-ai.github.io/my-match-notebook/)
 
-## 功能
+## Features
 
-- 按日期查看比赛时间、队伍、比分与比赛状态
-- 世界杯小组积分榜与 CS2 瑞士轮实时态势
-- 队徽、国旗与当前排名信息
-- 只看未来、深夜场、正常时间和收藏筛选
-- 根据个人偏好标记值得关注的比赛
-- 世界杯与 CS2 赛事新闻滚播
+- Browse match times, teams, scores, and status by date
+- World Cup group tables and CS2 Swiss-stage standings
+- Team flags, logos, and current rankings
+- Filters for upcoming matches, late-night kickoffs, normal hours, and favorites
+- Mark matches you want to watch
+- Rolling news for the World Cup and CS2
 
-## 本地预览
+## Local Preview
 
-可以点击仓库右上角的 **Use this template**，把项目完整复制到自己的 GitHub 账号；也可以通过 **Code > Download ZIP** 下载全部文件。
+Click **Use this template** in the top-right corner of the repository to copy the project to your own GitHub account, or use **Code > Download ZIP** to download all files.
 
-使用 Git 克隆：
+Clone with Git:
 
 ```powershell
 git clone https://github.com/crafy-ai/my-match-notebook.git
 cd my-match-notebook
 ```
 
-在项目目录运行：
+Run a local server in the project directory:
 
 ```powershell
 python -m http.server 4173 --bind 127.0.0.1
 ```
 
-随后访问 `http://127.0.0.1:4173/`。
+Then visit `http://127.0.0.1:4173/`.
 
-或者直接保存到本地后双击 `index.html` 使用。
+You can also save the files locally and open `index.html` directly in a browser.
 
-这是一个纯静态项目，不需要安装 npm 依赖，直接保留文件目录即可运行。
+This is a pure static project with no npm dependencies. Keep the file structure intact and it will run as-is.
 
-## 部署
+## Deployment
 
-推送到 GitHub 默认分支后，`部署 GitHub Pages` 工作流会自动发布网站。
+After pushing to the default branch, the `Deploy GitHub Pages` workflow publishes the site automatically.

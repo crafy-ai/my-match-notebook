@@ -1,6 +1,6 @@
 window.SCHEDULE_DATA = {
   "generatedAt": "2026-05-31T06:23:07.168Z",
-  "timezone": "Asia/Shanghai",
+  "timezone": "America/New_York",
   "sources": [
     {
       "name": "FIFA World Cup 2026",
@@ -37,7 +37,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "已公布",
+      "status": "Scheduled",
       "note": "Opening best-of-one",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -54,7 +54,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "已公布",
+      "status": "Scheduled",
       "note": "Opening best-of-one",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -71,7 +71,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "已公布",
+      "status": "Scheduled",
       "note": "Opening best-of-one",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -88,7 +88,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "已公布",
+      "status": "Scheduled",
       "note": "Opening best-of-one",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -105,7 +105,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "已公布",
+      "status": "Scheduled",
       "note": "Opening best-of-one",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -122,7 +122,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "已公布",
+      "status": "Scheduled",
       "note": "Opening best-of-one",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -139,7 +139,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "已公布",
+      "status": "Scheduled",
       "note": "Opening best-of-one",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -156,7 +156,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "已公布",
+      "status": "Scheduled",
       "note": "Opening best-of-one",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -173,7 +173,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Swiss pairings after Round 1",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -190,7 +190,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Swiss pairings after Round 1",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -207,7 +207,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Swiss pairings after Round 1",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -224,7 +224,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Swiss pairings after Round 1",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -241,7 +241,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Swiss middle bracket",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -258,7 +258,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Swiss middle bracket",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -275,7 +275,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Swiss middle bracket",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -292,7 +292,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Qualification match",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -309,7 +309,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Elimination match",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -326,7 +326,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Qualification match 1/2",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -343,7 +343,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Qualification match 3",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -360,7 +360,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Elimination match 1",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -377,7 +377,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Elimination match 2/3",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -394,7 +394,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Decider match 1",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -411,7 +411,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Decider match 2",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -428,7 +428,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Decider match 3",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -445,7 +445,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Opening best-of-one",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -462,7 +462,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Opening best-of-one",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -479,7 +479,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Opening best-of-one",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -496,7 +496,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Opening best-of-one",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -513,7 +513,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Opening best-of-one",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -530,7 +530,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Opening best-of-one",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -547,7 +547,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Opening best-of-one",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -564,7 +564,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Opening best-of-one",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -581,7 +581,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Swiss high bracket",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -598,7 +598,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Swiss low bracket",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -615,7 +615,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Swiss middle bracket",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -632,7 +632,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Qualification match",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -649,7 +649,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Elimination match",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -666,7 +666,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Qualification match",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -683,7 +683,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Elimination match",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -700,7 +700,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Decider matches",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -717,7 +717,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Opening best-of-one",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -734,7 +734,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Opening best-of-one",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -751,7 +751,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Opening best-of-one",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -768,7 +768,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Opening best-of-one",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -785,7 +785,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Opening best-of-one",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -802,7 +802,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Opening best-of-one",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -819,7 +819,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Opening best-of-one",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -836,7 +836,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Opening best-of-one",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -853,7 +853,7 @@ window.SCHEDULE_DATA = {
       "venue": "Estadio Azteca",
       "city": "Mexico City",
       "country": "Mexico",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -869,7 +869,7 @@ window.SCHEDULE_DATA = {
       "venue": "Estadio Akron",
       "city": "Guadalajara",
       "country": "Mexico",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -885,7 +885,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Swiss high bracket",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -902,7 +902,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Swiss low bracket",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -919,7 +919,7 @@ window.SCHEDULE_DATA = {
       "venue": "BMO Field",
       "city": "Toronto",
       "country": "Canada",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -935,7 +935,7 @@ window.SCHEDULE_DATA = {
       "venue": "SoFi Stadium",
       "city": "Los Angeles",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -951,7 +951,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Swiss middle bracket",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -968,7 +968,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Qualification match",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -985,7 +985,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Elimination match",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -1002,7 +1002,7 @@ window.SCHEDULE_DATA = {
       "venue": "Levi's Stadium",
       "city": "San Francisco Bay Area",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1018,7 +1018,7 @@ window.SCHEDULE_DATA = {
       "venue": "MetLife Stadium",
       "city": "New York/New Jersey",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1034,7 +1034,7 @@ window.SCHEDULE_DATA = {
       "venue": "Gillette Stadium",
       "city": "Boston",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1050,7 +1050,7 @@ window.SCHEDULE_DATA = {
       "venue": "BC Place",
       "city": "Vancouver",
       "country": "Canada",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1066,7 +1066,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Qualification match",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -1083,7 +1083,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Elimination match",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -1100,7 +1100,7 @@ window.SCHEDULE_DATA = {
       "venue": "NRG Stadium",
       "city": "Houston",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1116,7 +1116,7 @@ window.SCHEDULE_DATA = {
       "venue": "AT&T Stadium",
       "city": "Dallas",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1132,7 +1132,7 @@ window.SCHEDULE_DATA = {
       "venue": "Lincoln Financial Field",
       "city": "Philadelphia",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1148,7 +1148,7 @@ window.SCHEDULE_DATA = {
       "venue": "Estadio BBVA",
       "city": "Monterrey",
       "country": "Mexico",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1164,7 +1164,7 @@ window.SCHEDULE_DATA = {
       "venue": "IEM Cologne Major studio stage",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Decider matches",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -1181,7 +1181,7 @@ window.SCHEDULE_DATA = {
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1197,7 +1197,7 @@ window.SCHEDULE_DATA = {
       "venue": "Lumen Field",
       "city": "Seattle",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1213,7 +1213,7 @@ window.SCHEDULE_DATA = {
       "venue": "Hard Rock Stadium",
       "city": "Miami",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1229,7 +1229,7 @@ window.SCHEDULE_DATA = {
       "venue": "SoFi Stadium",
       "city": "Los Angeles",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1245,7 +1245,7 @@ window.SCHEDULE_DATA = {
       "venue": "MetLife Stadium",
       "city": "New York/New Jersey",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1261,7 +1261,7 @@ window.SCHEDULE_DATA = {
       "venue": "Gillette Stadium",
       "city": "Boston",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1277,7 +1277,7 @@ window.SCHEDULE_DATA = {
       "venue": "Arrowhead Stadium",
       "city": "Kansas City",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1293,7 +1293,7 @@ window.SCHEDULE_DATA = {
       "venue": "Levi's Stadium",
       "city": "San Francisco Bay Area",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1309,7 +1309,7 @@ window.SCHEDULE_DATA = {
       "venue": "NRG Stadium",
       "city": "Houston",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1325,7 +1325,7 @@ window.SCHEDULE_DATA = {
       "venue": "AT&T Stadium",
       "city": "Dallas",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1341,7 +1341,7 @@ window.SCHEDULE_DATA = {
       "venue": "BMO Field",
       "city": "Toronto",
       "country": "Canada",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1357,7 +1357,7 @@ window.SCHEDULE_DATA = {
       "venue": "Estadio Azteca",
       "city": "Mexico City",
       "country": "Mexico",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1373,7 +1373,7 @@ window.SCHEDULE_DATA = {
       "venue": "LANXESS Arena",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Quarter-final 1",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -1390,7 +1390,7 @@ window.SCHEDULE_DATA = {
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1406,7 +1406,7 @@ window.SCHEDULE_DATA = {
       "venue": "LANXESS Arena",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Quarter-final 2",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -1423,7 +1423,7 @@ window.SCHEDULE_DATA = {
       "venue": "SoFi Stadium",
       "city": "Los Angeles",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1439,7 +1439,7 @@ window.SCHEDULE_DATA = {
       "venue": "BC Place",
       "city": "Vancouver",
       "country": "Canada",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1455,7 +1455,7 @@ window.SCHEDULE_DATA = {
       "venue": "Estadio Akron",
       "city": "Guadalajara",
       "country": "Mexico",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1471,7 +1471,7 @@ window.SCHEDULE_DATA = {
       "venue": "LANXESS Arena",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Quarter-final 3",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -1488,7 +1488,7 @@ window.SCHEDULE_DATA = {
       "venue": "LANXESS Arena",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Quarter-final 4",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -1505,7 +1505,7 @@ window.SCHEDULE_DATA = {
       "venue": "Lumen Field",
       "city": "Seattle",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1521,7 +1521,7 @@ window.SCHEDULE_DATA = {
       "venue": "Gillette Stadium",
       "city": "Boston",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1537,7 +1537,7 @@ window.SCHEDULE_DATA = {
       "venue": "Lincoln Financial Field",
       "city": "Philadelphia",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1553,7 +1553,7 @@ window.SCHEDULE_DATA = {
       "venue": "Levi's Stadium",
       "city": "San Francisco Bay Area",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1569,7 +1569,7 @@ window.SCHEDULE_DATA = {
       "venue": "LANXESS Arena",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Semi-final 1",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -1586,7 +1586,7 @@ window.SCHEDULE_DATA = {
       "venue": "NRG Stadium",
       "city": "Houston",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1602,7 +1602,7 @@ window.SCHEDULE_DATA = {
       "venue": "LANXESS Arena",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Semi-final 2",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -1619,7 +1619,7 @@ window.SCHEDULE_DATA = {
       "venue": "BMO Field",
       "city": "Toronto",
       "country": "Canada",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1635,7 +1635,7 @@ window.SCHEDULE_DATA = {
       "venue": "Arrowhead Stadium",
       "city": "Kansas City",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1651,7 +1651,7 @@ window.SCHEDULE_DATA = {
       "venue": "Estadio BBVA",
       "city": "Monterrey",
       "country": "Mexico",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1667,7 +1667,7 @@ window.SCHEDULE_DATA = {
       "venue": "LANXESS Arena",
       "city": "Cologne",
       "country": "Germany",
-      "status": "待定对阵",
+      "status": "TBD matchup",
       "note": "Grand final",
       "source": "CS2 Major / HLTV / Strafe schedule"
     },
@@ -1684,7 +1684,7 @@ window.SCHEDULE_DATA = {
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1700,7 +1700,7 @@ window.SCHEDULE_DATA = {
       "venue": "SoFi Stadium",
       "city": "Los Angeles",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1716,7 +1716,7 @@ window.SCHEDULE_DATA = {
       "venue": "Hard Rock Stadium",
       "city": "Miami",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1732,7 +1732,7 @@ window.SCHEDULE_DATA = {
       "venue": "BC Place",
       "city": "Vancouver",
       "country": "Canada",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1748,7 +1748,7 @@ window.SCHEDULE_DATA = {
       "venue": "AT&T Stadium",
       "city": "Dallas",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1764,7 +1764,7 @@ window.SCHEDULE_DATA = {
       "venue": "Lincoln Financial Field",
       "city": "Philadelphia",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1780,7 +1780,7 @@ window.SCHEDULE_DATA = {
       "venue": "MetLife Stadium",
       "city": "New York/New Jersey",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1796,7 +1796,7 @@ window.SCHEDULE_DATA = {
       "venue": "Levi's Stadium",
       "city": "San Francisco Bay Area",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1812,7 +1812,7 @@ window.SCHEDULE_DATA = {
       "venue": "NRG Stadium",
       "city": "Houston",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1828,7 +1828,7 @@ window.SCHEDULE_DATA = {
       "venue": "Gillette Stadium",
       "city": "Boston",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1844,7 +1844,7 @@ window.SCHEDULE_DATA = {
       "venue": "BMO Field",
       "city": "Toronto",
       "country": "Canada",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1860,7 +1860,7 @@ window.SCHEDULE_DATA = {
       "venue": "Estadio Akron",
       "city": "Guadalajara",
       "country": "Mexico",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1876,7 +1876,7 @@ window.SCHEDULE_DATA = {
       "venue": "BC Place",
       "city": "Vancouver",
       "country": "Canada",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1892,7 +1892,7 @@ window.SCHEDULE_DATA = {
       "venue": "Lumen Field",
       "city": "Seattle",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1908,7 +1908,7 @@ window.SCHEDULE_DATA = {
       "venue": "Hard Rock Stadium",
       "city": "Miami",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1924,7 +1924,7 @@ window.SCHEDULE_DATA = {
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1940,7 +1940,7 @@ window.SCHEDULE_DATA = {
       "venue": "Estadio Azteca",
       "city": "Mexico City",
       "country": "Mexico",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1956,7 +1956,7 @@ window.SCHEDULE_DATA = {
       "venue": "Estadio BBVA",
       "city": "Monterrey",
       "country": "Mexico",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1972,7 +1972,7 @@ window.SCHEDULE_DATA = {
       "venue": "Lincoln Financial Field",
       "city": "Philadelphia",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -1988,7 +1988,7 @@ window.SCHEDULE_DATA = {
       "venue": "MetLife Stadium",
       "city": "New York/New Jersey",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2004,7 +2004,7 @@ window.SCHEDULE_DATA = {
       "venue": "AT&T Stadium",
       "city": "Dallas",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2020,7 +2020,7 @@ window.SCHEDULE_DATA = {
       "venue": "Arrowhead Stadium",
       "city": "Kansas City",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2036,7 +2036,7 @@ window.SCHEDULE_DATA = {
       "venue": "SoFi Stadium",
       "city": "Los Angeles",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2052,7 +2052,7 @@ window.SCHEDULE_DATA = {
       "venue": "Levi's Stadium",
       "city": "San Francisco Bay Area",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2068,7 +2068,7 @@ window.SCHEDULE_DATA = {
       "venue": "Gillette Stadium",
       "city": "Boston",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2084,7 +2084,7 @@ window.SCHEDULE_DATA = {
       "venue": "BMO Field",
       "city": "Toronto",
       "country": "Canada",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2100,7 +2100,7 @@ window.SCHEDULE_DATA = {
       "venue": "NRG Stadium",
       "city": "Houston",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2116,7 +2116,7 @@ window.SCHEDULE_DATA = {
       "venue": "Estadio Akron",
       "city": "Guadalajara",
       "country": "Mexico",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2132,7 +2132,7 @@ window.SCHEDULE_DATA = {
       "venue": "Lumen Field",
       "city": "Seattle",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2148,7 +2148,7 @@ window.SCHEDULE_DATA = {
       "venue": "BC Place",
       "city": "Vancouver",
       "country": "Canada",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2164,7 +2164,7 @@ window.SCHEDULE_DATA = {
       "venue": "MetLife Stadium",
       "city": "New York/New Jersey",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2180,7 +2180,7 @@ window.SCHEDULE_DATA = {
       "venue": "Lincoln Financial Field",
       "city": "Philadelphia",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2196,7 +2196,7 @@ window.SCHEDULE_DATA = {
       "venue": "Hard Rock Stadium",
       "city": "Miami",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2212,7 +2212,7 @@ window.SCHEDULE_DATA = {
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2228,7 +2228,7 @@ window.SCHEDULE_DATA = {
       "venue": "Arrowhead Stadium",
       "city": "Kansas City",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2244,7 +2244,7 @@ window.SCHEDULE_DATA = {
       "venue": "AT&T Stadium",
       "city": "Dallas",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2260,7 +2260,7 @@ window.SCHEDULE_DATA = {
       "venue": "SoFi Stadium",
       "city": "Los Angeles",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2276,7 +2276,7 @@ window.SCHEDULE_DATA = {
       "venue": "NRG Stadium",
       "city": "Houston",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2292,7 +2292,7 @@ window.SCHEDULE_DATA = {
       "venue": "Gillette Stadium",
       "city": "Boston",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2308,7 +2308,7 @@ window.SCHEDULE_DATA = {
       "venue": "Estadio BBVA",
       "city": "Monterrey",
       "country": "Mexico",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2324,7 +2324,7 @@ window.SCHEDULE_DATA = {
       "venue": "AT&T Stadium",
       "city": "Dallas",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2340,7 +2340,7 @@ window.SCHEDULE_DATA = {
       "venue": "MetLife Stadium",
       "city": "New York/New Jersey",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2356,7 +2356,7 @@ window.SCHEDULE_DATA = {
       "venue": "Estadio Azteca",
       "city": "Mexico City",
       "country": "Mexico",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2372,7 +2372,7 @@ window.SCHEDULE_DATA = {
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2388,7 +2388,7 @@ window.SCHEDULE_DATA = {
       "venue": "Lumen Field",
       "city": "Seattle",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2404,7 +2404,7 @@ window.SCHEDULE_DATA = {
       "venue": "Levi's Stadium",
       "city": "San Francisco Bay Area",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2420,7 +2420,7 @@ window.SCHEDULE_DATA = {
       "venue": "SoFi Stadium",
       "city": "Los Angeles",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2436,7 +2436,7 @@ window.SCHEDULE_DATA = {
       "venue": "BMO Field",
       "city": "Toronto",
       "country": "Canada",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2452,7 +2452,7 @@ window.SCHEDULE_DATA = {
       "venue": "BC Place",
       "city": "Vancouver",
       "country": "Canada",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2468,7 +2468,7 @@ window.SCHEDULE_DATA = {
       "venue": "AT&T Stadium",
       "city": "Dallas",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2484,7 +2484,7 @@ window.SCHEDULE_DATA = {
       "venue": "Hard Rock Stadium",
       "city": "Miami",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2500,7 +2500,7 @@ window.SCHEDULE_DATA = {
       "venue": "Arrowhead Stadium",
       "city": "Kansas City",
       "country": "USA",
-      "status": "已公布",
+      "status": "Scheduled",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2516,7 +2516,7 @@ window.SCHEDULE_DATA = {
       "venue": "NRG Stadium",
       "city": "Houston",
       "country": "USA",
-      "status": "待定晋级路径",
+      "status": "TBD path",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2532,7 +2532,7 @@ window.SCHEDULE_DATA = {
       "venue": "Lincoln Financial Field",
       "city": "Philadelphia",
       "country": "USA",
-      "status": "待定晋级路径",
+      "status": "TBD path",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2548,7 +2548,7 @@ window.SCHEDULE_DATA = {
       "venue": "MetLife Stadium",
       "city": "New York/New Jersey",
       "country": "USA",
-      "status": "待定晋级路径",
+      "status": "TBD path",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2564,7 +2564,7 @@ window.SCHEDULE_DATA = {
       "venue": "Estadio Azteca",
       "city": "Mexico City",
       "country": "Mexico",
-      "status": "待定晋级路径",
+      "status": "TBD path",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2580,7 +2580,7 @@ window.SCHEDULE_DATA = {
       "venue": "AT&T Stadium",
       "city": "Dallas",
       "country": "USA",
-      "status": "待定晋级路径",
+      "status": "TBD path",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2596,7 +2596,7 @@ window.SCHEDULE_DATA = {
       "venue": "Lumen Field",
       "city": "Seattle",
       "country": "USA",
-      "status": "待定晋级路径",
+      "status": "TBD path",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2612,7 +2612,7 @@ window.SCHEDULE_DATA = {
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta",
       "country": "USA",
-      "status": "待定晋级路径",
+      "status": "TBD path",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2628,7 +2628,7 @@ window.SCHEDULE_DATA = {
       "venue": "BC Place",
       "city": "Vancouver",
       "country": "Canada",
-      "status": "待定晋级路径",
+      "status": "TBD path",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2644,7 +2644,7 @@ window.SCHEDULE_DATA = {
       "venue": "Gillette Stadium",
       "city": "Boston",
       "country": "USA",
-      "status": "待定晋级路径",
+      "status": "TBD path",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2660,7 +2660,7 @@ window.SCHEDULE_DATA = {
       "venue": "SoFi Stadium",
       "city": "Los Angeles",
       "country": "USA",
-      "status": "待定晋级路径",
+      "status": "TBD path",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2676,7 +2676,7 @@ window.SCHEDULE_DATA = {
       "venue": "Hard Rock Stadium",
       "city": "Miami",
       "country": "USA",
-      "status": "待定晋级路径",
+      "status": "TBD path",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2692,7 +2692,7 @@ window.SCHEDULE_DATA = {
       "venue": "Arrowhead Stadium",
       "city": "Kansas City",
       "country": "USA",
-      "status": "待定晋级路径",
+      "status": "TBD path",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2708,7 +2708,7 @@ window.SCHEDULE_DATA = {
       "venue": "AT&T Stadium",
       "city": "Dallas",
       "country": "USA",
-      "status": "待定晋级路径",
+      "status": "TBD path",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2724,7 +2724,7 @@ window.SCHEDULE_DATA = {
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta",
       "country": "USA",
-      "status": "待定晋级路径",
+      "status": "TBD path",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2740,7 +2740,7 @@ window.SCHEDULE_DATA = {
       "venue": "Hard Rock Stadium",
       "city": "Miami",
       "country": "USA",
-      "status": "待定晋级路径",
+      "status": "TBD path",
       "source": "MatchTimes / FIFA schedule"
     },
     {
@@ -2756,7 +2756,7 @@ window.SCHEDULE_DATA = {
       "venue": "MetLife Stadium",
       "city": "New York/New Jersey",
       "country": "USA",
-      "status": "待定晋级路径",
+      "status": "TBD path",
       "source": "MatchTimes / FIFA schedule"
     }
   ]

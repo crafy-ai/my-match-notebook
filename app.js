@@ -1,5 +1,5 @@
 const DATA = window.SCHEDULE_DATA;
-const BJT = "Asia/Shanghai";
+const ET = "America/New_York";
 const FAVORITE_KEY = "watch-schedule-favorites";
 
 const state = {
@@ -29,54 +29,54 @@ const els = {
 };
 
 const WORLD_CUP_TEAMS = {
-  Algeria: "阿尔及利亚",
-  Argentina: "阿根廷",
-  Australia: "澳大利亚",
-  Austria: "奥地利",
-  Belgium: "比利时",
-  "Bosnia and Herzegovina": "波黑",
-  Brazil: "巴西",
-  "Cabo Verde": "佛得角",
-  Canada: "加拿大",
-  Colombia: "哥伦比亚",
-  "Congo DR": "刚果民主共和国",
-  Croatia: "克罗地亚",
-  "Curaçao": "库拉索",
-  Czechia: "捷克",
-  "Côte d'Ivoire": "科特迪瓦",
-  Ecuador: "厄瓜多尔",
-  Egypt: "埃及",
-  England: "英格兰",
-  France: "法国",
-  Germany: "德国",
-  Ghana: "加纳",
-  Haiti: "海地",
-  Iran: "伊朗",
-  Iraq: "伊拉克",
-  Japan: "日本",
-  Jordan: "约旦",
-  "Korea Republic": "韩国",
-  Mexico: "墨西哥",
-  Morocco: "摩洛哥",
-  Netherlands: "荷兰",
-  "New Zealand": "新西兰",
-  Norway: "挪威",
-  Panama: "巴拿马",
-  Paraguay: "巴拉圭",
-  Portugal: "葡萄牙",
-  Qatar: "卡塔尔",
-  "Saudi Arabia": "沙特阿拉伯",
-  Scotland: "苏格兰",
-  Senegal: "塞内加尔",
-  "South Africa": "南非",
-  Spain: "西班牙",
-  Sweden: "瑞典",
-  Switzerland: "瑞士",
-  Tunisia: "突尼斯",
-  Turkey: "土耳其",
-  "United States": "美国",
-  Uruguay: "乌拉圭",
-  Uzbekistan: "乌兹别克斯坦",
+  Algeria: "Algeria",
+  Argentina: "Argentina",
+  Australia: "Australia",
+  Austria: "Austria",
+  Belgium: "Belgium",
+  "Bosnia and Herzegovina": "Bosnia and Herzegovina",
+  Brazil: "Brazil",
+  "Cabo Verde": "Cabo Verde",
+  Canada: "Canada",
+  Colombia: "Colombia",
+  "Congo DR": "Congo DR",
+  Croatia: "Croatia",
+  "Curaçao": "Curaçao",
+  Czechia: "Czechia",
+  "Côte d'Ivoire": "Côte d'Ivoire",
+  Ecuador: "Ecuador",
+  Egypt: "Egypt",
+  England: "England",
+  France: "France",
+  Germany: "Germany",
+  Ghana: "Ghana",
+  Haiti: "Haiti",
+  Iran: "Iran",
+  Iraq: "Iraq",
+  Japan: "Japan",
+  Jordan: "Jordan",
+  "Korea Republic": "Korea Republic",
+  Mexico: "Mexico",
+  Morocco: "Morocco",
+  Netherlands: "Netherlands",
+  "New Zealand": "New Zealand",
+  Norway: "Norway",
+  Panama: "Panama",
+  Paraguay: "Paraguay",
+  Portugal: "Portugal",
+  Qatar: "Qatar",
+  "Saudi Arabia": "Saudi Arabia",
+  Scotland: "Scotland",
+  Senegal: "Senegal",
+  "South Africa": "South Africa",
+  Spain: "Spain",
+  Sweden: "Sweden",
+  Switzerland: "Switzerland",
+  Tunisia: "Tunisia",
+  Turkey: "Turkey",
+  "United States": "United States",
+  Uruguay: "Uruguay",
+  Uzbekistan: "Uzbekistan",
 };
 
 const TEAM_FLAGS = {
@@ -340,141 +340,130 @@ const CS2_LOGOS = {
 };
 
 const STAGE_NAMES = {
-  "Group Stage": "小组赛",
-  "Round of 32": "三十二强赛",
-  "Round of 16": "十六强赛",
-  "Quarter-final": "四分之一决赛",
-  "Semi-final": "半决赛",
-  "Third Place": "三四名决赛",
-  Final: "决赛",
-  "Playoffs Quarter-final": "淘汰赛四分之一决赛",
-  "Playoffs Semi-final": "淘汰赛半决赛",
-  "Playoffs Grand Final": "淘汰赛总决赛",
+  "Group Stage": "Group Stage",
+  "Round of 32": "Round of 32",
+  "Round of 16": "Round of 16",
+  "Quarter-final": "Quarter-final",
+  "Semi-final": "Semi-final",
+  "Third Place": "Third Place",
+  Final: "Final",
+  "Playoffs Quarter-final": "Playoffs Quarter-final",
+  "Playoffs Semi-final": "Playoffs Semi-final",
+  "Playoffs Grand Final": "Playoffs Grand Final",
 };
 
 const VENUES = {
-  "IEM Cologne Major studio stage": "科隆大赛演播厅阶段",
-  "LANXESS Arena": "朗盛竞技场",
-  "Estadio Azteca": "阿兹特克体育场",
-  "Estadio Akron": "阿克伦体育场",
-  "BMO Field": "多伦多球场",
-  "SoFi Stadium": "洛杉矶体育场",
-  "Levi's Stadium": "李维斯体育场",
-  "MetLife Stadium": "大都会人寿体育场",
-  "Gillette Stadium": "吉列体育场",
-  "BC Place": "卑诗体育馆",
-  "NRG Stadium": "休斯敦体育场",
-  "AT&T Stadium": "达拉斯体育场",
-  "Lincoln Financial Field": "林肯金融球场",
-  "Estadio BBVA": "蒙特雷体育场",
-  "Mercedes-Benz Stadium": "梅赛德斯-奔驰体育场",
-  "Lumen Field": "流明球场",
-  "Hard Rock Stadium": "硬石体育场",
-  "Arrowhead Stadium": "箭头体育场",
+  "IEM Cologne Major studio stage": "IEM Cologne Major studio stage",
+  "LANXESS Arena": "LANXESS Arena",
+  "Estadio Azteca": "Estadio Azteca",
+  "Estadio Akron": "Estadio Akron",
+  "BMO Field": "BMO Field",
+  "SoFi Stadium": "SoFi Stadium",
+  "Levi's Stadium": "Levi's Stadium",
+  "MetLife Stadium": "MetLife Stadium",
+  "Gillette Stadium": "Gillette Stadium",
+  "BC Place": "BC Place",
+  "NRG Stadium": "NRG Stadium",
+  "AT&T Stadium": "AT&T Stadium",
+  "Lincoln Financial Field": "Lincoln Financial Field",
+  "Estadio BBVA": "Estadio BBVA",
+  "Mercedes-Benz Stadium": "Mercedes-Benz Stadium",
+  "Lumen Field": "Lumen Field",
+  "Hard Rock Stadium": "Hard Rock Stadium",
+  "Arrowhead Stadium": "Arrowhead Stadium",
 };
 
 const CITIES = {
-  "Mexico City": "墨西哥城",
-  Guadalajara: "瓜达拉哈拉",
-  Toronto: "多伦多",
-  "Los Angeles": "洛杉矶",
-  "San Francisco Bay Area": "旧金山湾区",
-  "New York/New Jersey": "纽约/新泽西",
-  Boston: "波士顿",
-  Vancouver: "温哥华",
-  Houston: "休斯敦",
-  Dallas: "达拉斯",
-  Philadelphia: "费城",
-  Monterrey: "蒙特雷",
-  Atlanta: "亚特兰大",
-  Seattle: "西雅图",
-  Miami: "迈阿密",
-  "Kansas City": "堪萨斯城",
-  Cologne: "科隆",
+  "Mexico City": "Mexico City",
+  Guadalajara: "Guadalajara",
+  Toronto: "Toronto",
+  "Los Angeles": "Los Angeles",
+  "San Francisco Bay Area": "San Francisco Bay Area",
+  "New York/New Jersey": "New York/New Jersey",
+  Boston: "Boston",
+  Vancouver: "Vancouver",
+  Houston: "Houston",
+  Dallas: "Dallas",
+  Philadelphia: "Philadelphia",
+  Monterrey: "Monterrey",
+  Atlanta: "Atlanta",
+  Seattle: "Seattle",
+  Miami: "Miami",
+  "Kansas City": "Kansas City",
+  Cologne: "Cologne",
 };
 
 const NOTE_NAMES = {
-  "Opening best-of-one": "首轮一图制",
-  "Swiss pairings after Round 1": "首轮结束后生成瑞士轮对阵",
-  "Swiss middle bracket": "瑞士轮同战绩组",
-  "Swiss high bracket": "瑞士轮高战绩组",
-  "Swiss low bracket": "瑞士轮低战绩组",
-  "Qualification match": "晋级赛",
-  "Elimination match": "淘汰赛",
-  "Qualification match 1/2": "晋级赛第一、第二场",
-  "Qualification match 3": "晋级赛第三场",
-  "Elimination match 1": "淘汰赛第一场",
-  "Elimination match 2/3": "淘汰赛第二、第三场",
-  "Decider match 1": "决胜赛第一场",
-  "Decider match 2": "决胜赛第二场",
-  "Decider match 3": "决胜赛第三场",
-  "Decider matches": "决胜赛",
-  "Quarter-final 1": "四分之一决赛第一场",
-  "Quarter-final 2": "四分之一决赛第二场",
-  "Quarter-final 3": "四分之一决赛第三场",
-  "Quarter-final 4": "四分之一决赛第四场",
-  "Semi-final 1": "半决赛第一场",
-  "Semi-final 2": "半决赛第二场",
-  "Grand final": "总决赛",
+  "Opening best-of-one": "Opening best-of-one",
+  "Swiss pairings after Round 1": "Swiss pairings after Round 1",
+  "Swiss middle bracket": "Swiss middle bracket",
+  "Swiss high bracket": "Swiss high bracket",
+  "Swiss low bracket": "Swiss low bracket",
+  "Qualification match": "Qualification match",
+  "Elimination match": "Elimination match",
+  "Qualification match 1/2": "Qualification match 1/2",
+  "Qualification match 3": "Qualification match 3",
+  "Elimination match 1": "Elimination match 1",
+  "Elimination match 2/3": "Elimination match 2/3",
+  "Decider match 1": "Decider match 1",
+  "Decider match 2": "Decider match 2",
+  "Decider match 3": "Decider match 3",
+  "Decider matches": "Decider matches",
+  "Quarter-final 1": "Quarter-final 1",
+  "Quarter-final 2": "Quarter-final 2",
+  "Quarter-final 3": "Quarter-final 3",
+  "Quarter-final 4": "Quarter-final 4",
+  "Semi-final 1": "Semi-final 1",
+  "Semi-final 2": "Semi-final 2",
+  "Grand final": "Grand final",
 };
 
 const STATUS_NAMES = {
-  "已公布": "已公布",
-  "待定对阵": "待定对阵",
-  "待定晋级路径": "待定晋级路径",
+  "Scheduled": "Scheduled",
+  "TBD matchup": "TBD matchup",
+  "TBD path": "TBD path",
+  "Final": "Final",
+  "Live": "Live",
 };
 
 const SOURCE_NAMES = {
-  "FIFA World Cup 2026": "国际足联官方赛事页",
-  "MatchTimes World Cup schedule": "世界杯完整赛程页",
-  "CS2 Major Cologne": "CS2 科隆大赛官方站",
-  "HLTV IEM Cologne Major matches": "CS2 科隆大赛对阵页",
-  "Strafe IEM Cologne Major viewer guide": "CS2 科隆大赛观赛指南",
+  "FIFA World Cup 2026": "FIFA World Cup 2026",
+  "MatchTimes World Cup schedule": "World Cup schedule",
+  "CS2 Major Cologne": "CS2 Major Cologne",
+  "HLTV IEM Cologne Major matches": "HLTV match page",
+  "Strafe IEM Cologne Major viewer guide": "Strafe viewer guide",
 };
 
-const GROUP_LETTERS = {
-  A: "第一",
-  B: "第二",
-  C: "第三",
-  D: "第四",
-  E: "第五",
-  F: "第六",
-  G: "第七",
-  H: "第八",
-  I: "第九",
-  J: "第十",
-  K: "第十一",
-  L: "第十二",
-};
 
-const dateFormatter = new Intl.DateTimeFormat("zh-CN", {
-  timeZone: BJT,
+
+const dateFormatter = new Intl.DateTimeFormat("en-US", {
+  timeZone: ET,
   month: "2-digit",
   day: "2-digit",
   weekday: "short",
 });
 
-const fullDateFormatter = new Intl.DateTimeFormat("zh-CN", {
-  timeZone: BJT,
+const fullDateFormatter = new Intl.DateTimeFormat("en-US", {
+  timeZone: ET,
   year: "numeric",
   month: "2-digit",
   day: "2-digit",
   weekday: "short",
 });
 
-const timeFormatter = new Intl.DateTimeFormat("zh-CN", {
-  timeZone: BJT,
+const timeFormatter = new Intl.DateTimeFormat("en-US", {
+  timeZone: ET,
   hour: "2-digit",
   minute: "2-digit",
   hour12: false,
   hourCycle: "h23",
 });
 
-function bjtParts(event) {
+function etParts(event) {
   const date = new Date(event.utc);
   const hour = Number(
     new Intl.DateTimeFormat("en-US", {
-      timeZone: BJT,
+      timeZone: ET,
       hour: "2-digit",
       hour12: false,
       hourCycle: "h23",
@@ -491,15 +480,15 @@ function bjtParts(event) {
 }
 
 function isLate(event) {
-  const { hour } = bjtParts(event);
+  const { hour } = etParts(event);
   return hour >= 23 || hour < 6;
 }
 
 function isNormalTime(event) {
-  const { date, hour } = bjtParts(event);
+  const { date, hour } = etParts(event);
   const minute = Number(
     new Intl.DateTimeFormat("en-US", {
-      timeZone: BJT,
+      timeZone: ET,
       minute: "2-digit",
     }).format(date),
   );
@@ -507,12 +496,12 @@ function isNormalTime(event) {
 }
 
 function cs2Placeholder(text) {
-  if (text === "TBD") return "待定";
-  if (text === "TBD Stage 1 qualifier") return "待定：第一阶段晋级队";
-  if (text === "TBD Stage 2 qualifier") return "待定：第二阶段晋级队";
+  if (text === "TBD") return "TBD";
+  if (text === "TBD Stage 1 qualifier") return "TBD: Stage 1 qualifier";
+  if (text === "TBD Stage 2 qualifier") return "TBD: Stage 2 qualifier";
 
   const record = text.match(/^TBD (.+)$/);
-  if (record) return `待定：${record[1]} 组`;
+  if (record) return `TBD: ${record[1]} group`;
 
   return text;
 }
@@ -522,18 +511,18 @@ function worldCupPath(text) {
 
   const matchPath = text.match(/^Match (\d+) (Winner|Loser)$/);
   if (matchPath) {
-    return `第 ${matchPath[1]} 场${matchPath[2] === "Winner" ? "胜者" : "负者"}`;
+    return `Match ${matchPath[1]} ${matchPath[2] === "Winner" ? "Winner" : "Loser"}`;
   }
 
   const groupPlace = text.match(/^Group ([A-L](?:\/[A-L])*) (Winner|Runner-Up|3rd Place)$/);
   if (groupPlace) {
-    const groups = groupPlace[1].split("/").map((group) => `${GROUP_LETTERS[group]}组`).join("、");
+    const groups = groupPlace[1].split("/").map((group) => `Group ${group}`).join(" / ");
     const place = {
-      Winner: "第一名",
-      "Runner-Up": "第二名",
-      "3rd Place": "第三名之一",
+      Winner: "Winner",
+      "Runner-Up": "Runner-Up",
+      "3rd Place": "Third Place",
     }[groupPlace[2]];
-    return `${groups}${place}`;
+    return `${groups} ${place}`;
   }
 
   return text;
@@ -545,7 +534,7 @@ function displayTeam(event, team) {
 
 function displayStage(stage) {
   const stageMatch = stage.match(/^Stage (\d+) Round (\d+)$/);
-  if (stageMatch) return `第 ${stageMatch[1]} 阶段第 ${stageMatch[2]} 轮`;
+  if (stageMatch) return `Stage ${stageMatch[1]} Round ${stageMatch[2]}`;
   return STAGE_NAMES[stage] || stage;
 }
 
@@ -568,9 +557,9 @@ function teamRanking(event, team) {
 
 function rankLabel(event, team) {
   const ranking = teamRanking(event, team);
-  if (!ranking) return "排名待定";
-  const source = event.tournament === "cs2" ? "积分" : "国际足联";
-  return `${source}第 ${ranking.rank} 名 · ${ranking.points} 分`;
+  if (!ranking) return "Rank TBD";
+  const source = event.tournament === "cs2" ? "Rating" : "FIFA";
+  return `${source} rank #${ranking.rank} · ${ranking.points} pts`;
 }
 
 function escapeHtml(value) {
@@ -582,9 +571,7 @@ function escapeHtml(value) {
     .replace(/'/g, "&#039;");
 }
 
-function isChinaCs2Team(team) {
-  return ["TYLOO", "Lynn Vision"].includes(team);
-}
+
 
 function isPortugalMatch(event) {
   return event.tournament === "worldcup" && [event.home, event.away].includes("Portugal");
@@ -613,11 +600,10 @@ function isStrongMatch(event) {
 }
 
 function isLikelyInteresting(event) {
-  if (event.tournament === "cs2" && (isChinaCs2Team(event.home) || isChinaCs2Team(event.away))) return true;
   if (isPortugalMatch(event)) return true;
   if (isStrongMatch(event)) return true;
   if (event.stage === "Final" || event.stage === "Playoffs Grand Final") return true;
-  if (event.note && /晋级|淘汰|Grand final|Qualification|Elimination/.test(event.note)) return true;
+  if (event.note && /Grand final|Qualification|Elimination/i.test(event.note)) return true;
   return false;
 }
 
@@ -631,66 +617,63 @@ function matchHighlights(event) {
   const note = displayNote(event.note || event.status);
 
   if (event.tournament === "cs2") {
-    if (isChinaCs2Team(event.home) || isChinaCs2Team(event.away)) {
-      highlights.push("中国战队比赛，建议优先关注开赛时间和赛后结果。");
-    }
     if (isStrongMatch(event)) {
-      highlights.push("强强对话：双方当前积分排名都在前 25，胜负含金量高。");
+      highlights.push("Heavyweight matchup: both teams are ranked in the top 25, so the result carries real weight.");
     }
-    if (event.note && /晋级|Qualification/.test(event.note)) {
-      highlights.push("晋级赛：胜者会向下一阶段名额靠近，值得实时看。");
+    if (event.note && /Qualification/i.test(event.note)) {
+      highlights.push("Qualification match: the winner moves closer to the next stage. Worth watching live.");
     }
-    if (event.note && /淘汰|Elimination/.test(event.note)) {
-      highlights.push("淘汰赛：败者出局，比赛压力会很直接。");
+    if (event.note && /Elimination/i.test(event.note)) {
+      highlights.push("Elimination match: the loser goes home. High pressure.");
     }
     if (event.stage.includes("Stage 1") && Array.isArray(event.score)) {
-      highlights.push(`已结束比分 ${event.score[0]} : ${event.score[1]}，胜者是 ${event.winner}。`);
+      highlights.push(`Final score ${event.score[0]} : ${event.score[1]}; ${event.winner} won.`);
     }
     if (event.stage.includes("Stage") && !Array.isArray(event.score)) {
-      highlights.push(`${stage}，当前看点是瑞士轮战绩分组和后续晋级路径。`);
+      highlights.push(`${stage}: the story is the Swiss record groups and the path to the playoffs.`);
     }
     if (event.stage.startsWith("Playoffs")) {
-      highlights.push("淘汰赛阶段，容错率更低，适合重点追直播。");
+      highlights.push("Playoff stage: less room for error and a better reason to watch live.");
     }
   } else {
     if (isPortugalMatch(event)) {
-      highlights.push("葡萄牙比赛，按你的 Cristiano Ronaldo 偏好优先标记。");
+      highlights.push("Portugal match, prioritized for your Cristiano Ronaldo interest.");
     }
     if (isStrongMatch(event)) {
-      highlights.push("强强对话：双方当前国际足联排名都在前 20。");
+      highlights.push("Heavyweight matchup: both teams are ranked in the FIFA top 20.");
     } else if (homeRank && awayRank && Math.abs(homeRank - awayRank) <= 8 && Math.min(homeRank, awayRank) <= 35) {
-      highlights.push("排名接近，可能是小组或淘汰路径里的胶着场。");
+      highlights.push("Close rankings—this could be a tight group or knockout match.");
     }
     if (event.group) {
-      highlights.push(`${GROUP_LETTERS[event.group] || event.group}组比赛，关注小组积分和出线顺位。`);
+      highlights.push(`Group ${event.group} match. Watch the group table and qualification order.`);
     }
     if (event.matchNo === 1) {
-      highlights.push("世界杯开幕战，仪式感和揭幕节奏都值得看。");
+      highlights.push("World Cup opener—the ceremony and opening pace are worth watching.");
     }
     if (isKnockoutStage(event)) {
-      highlights.push(`${stage}，每一场都会直接影响晋级树走向。`);
+      highlights.push(`${stage}: every match directly shapes the bracket.`);
     }
     if (event.stage === "Final") {
-      highlights.push("决赛，整届赛事最后的答案。");
+      highlights.push("The final—the last answer of the tournament.");
     }
   }
 
   if (homeRank && awayRank) {
-    const rankName = event.tournament === "cs2" ? "积分排名" : "国际足联排名";
-    highlights.push(`${homeName} ${rankName}第 ${homeRank}，${awayName} 第 ${awayRank}。`);
+    const rankName = event.tournament === "cs2" ? "Rating" : "FIFA ranking";
+    highlights.push(`${homeName} ${rankName} #${homeRank}, ${awayName} #${awayRank}.`);
   }
 
-  const { hour } = bjtParts(event);
+  const { hour } = etParts(event);
   if (isNormalTime(event) && hour < 23) {
-    highlights.push("北京时间较友好，适合正常时间观看。");
+    highlights.push("Kickoff time is friendly for normal viewing.");
   } else if (isNormalTime(event)) {
-    highlights.push("仍在正常时间筛选内，但已经接近午夜。");
+    highlights.push("Still within normal hours, but close to midnight.");
   } else if (isLate(event)) {
-    highlights.push("深夜场，建议提前决定是否熬夜。");
+    highlights.push("Late-night match—decide ahead of time whether you are staying up.");
   }
 
   if (!highlights.length) {
-    highlights.push(`${stage}，对阵或晋级路径待进一步确认。`);
+    highlights.push(`${stage}: matchup or qualification path still to be confirmed.`);
   }
 
   return highlights;
@@ -701,9 +684,9 @@ function renderHighlights(event) {
   const items = highlights.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
   return `
     <span class="highlight-wrap" tabindex="0">
-      <span class="pill highlight-trigger">看点</span>
+      <span class="pill highlight-trigger">Highlights</span>
       <span class="highlight-popover" role="tooltip">
-        <strong>这场为什么值得留意</strong>
+        <strong>Why this match is worth watching</strong>
         <ul>${items}</ul>
       </span>
     </span>
@@ -711,9 +694,9 @@ function renderHighlights(event) {
 }
 
 function teamInitials(team) {
-  if (team.startsWith("TBD")) return "待";
+  if (team.startsWith("TBD")) return "TBD";
   const compact = team.replace(/[^A-Za-z0-9]/g, "");
-  if (!compact) return "队";
+  if (!compact) return "T";
   if (/^[0-9]/.test(compact)) return compact.slice(0, 2).toUpperCase();
   const caps = compact.match(/[A-Z0-9]/g);
   return (caps?.slice(0, 3).join("") || compact.slice(0, 3)).toUpperCase();
@@ -729,19 +712,19 @@ function teamLogo(event, team) {
     if (flag) {
       return `
         <span class="team-logo flag-image">
-          <img src="${flag}" alt="${displayTeam(event, team)}国旗" loading="lazy" decoding="async" />
+          <img src="${flag}" alt="${displayTeam(event, team)} flag" loading="lazy" decoding="async" />
         </span>
       `;
     }
     if (TEAM_FLAGS[team]) return `<span class="team-logo flag">${TEAM_FLAGS[team]}</span>`;
-    return `<span class="team-logo pending-logo">晋</span>`;
+    return `<span class="team-logo pending-logo">TBD</span>`;
   }
 
   const logo = CS2_LOGOS[team];
   if (logo) {
     return `
       <span class="team-logo logo-image">
-        <img src="${logo}" alt="${team} 队徽" loading="lazy" decoding="async" />
+        <img src="${logo}" alt="${team} logo" loading="lazy" decoding="async" />
       </span>
     `;
   }
@@ -775,14 +758,14 @@ function eventSearchText(event) {
     event.away,
     displayStage(event.stage),
     event.stage,
-    event.group ? `${event.group}组` : "",
+    event.group ? `Group ${event.group}` : "",
     displayVenue(event.venue),
     displayCity(event.city),
     displayNote(event.note || event.status),
     STATUS_NAMES[event.status],
     rankLabel(event, event.home),
     rankLabel(event, event.away),
-    isLikelyInteresting(event) ? "猜我会看 推荐 重点关注" : "",
+    isLikelyInteresting(event) ? "recommended must-watch focus" : "",
     ...matchHighlights(event),
   ]
     .filter(Boolean)
@@ -814,7 +797,7 @@ function statEvents() {
 }
 
 function tournamentName(event) {
-  return event.tournament === "worldcup" ? "世界杯" : "CS2";
+  return event.tournament === "worldcup" ? "World Cup" : "CS2";
 }
 
 function stageEvents(tournament, stages) {
@@ -828,15 +811,15 @@ function renderBracketNode(event) {
   const away = displayTeam(event, event.away);
   return `
     <div class="bracket-node">
-      <span>第 ${event.matchNo} 场</span>
+      <span>Match ${event.matchNo}</span>
       <strong>${home}</strong>
-      <em>对阵</em>
+      <em>vs</em>
       <strong>${away}</strong>
     </div>
   `;
 }
 
-function renderBracketColumn(title, events, emptyText = "待定") {
+function renderBracketColumn(title, events, emptyText = "TBD") {
   const nodes = events.length
     ? events.map(renderBracketNode).join("")
     : `<div class="bracket-node muted-node"><strong>${emptyText}</strong></div>`;
@@ -922,11 +905,11 @@ function renderWorldCupBracket() {
   return `
     <div class="bracket-scroll">
       <div class="bracket-tree">
-        ${renderBracketColumn("三十二强赛", stageEvents("worldcup", ["Round of 32"]))}
-        ${renderBracketColumn("十六强赛", stageEvents("worldcup", ["Round of 16"]))}
-        ${renderBracketColumn("四分之一决赛", stageEvents("worldcup", ["Quarter-final"]))}
-        ${renderBracketColumn("半决赛", stageEvents("worldcup", ["Semi-final"]))}
-        ${renderBracketColumn("决赛", stageEvents("worldcup", ["Final"]))}
+        ${renderBracketColumn("Round of 32", stageEvents("worldcup", ["Round of 32"]))}
+        ${renderBracketColumn("Round of 16", stageEvents("worldcup", ["Round of 16"]))}
+        ${renderBracketColumn("Quarter-finals", stageEvents("worldcup", ["Quarter-final"]))}
+        ${renderBracketColumn("Semi-finals", stageEvents("worldcup", ["Semi-final"]))}
+        ${renderBracketColumn("Final", stageEvents("worldcup", ["Final"]))}
       </div>
     </div>
   `;
@@ -938,9 +921,9 @@ function renderWorldCupStandingsTable() {
       const rows = renderWorldCupStandingRows(group, teams);
       return `
         <div class="standing-group">
-          <h4>${GROUP_LETTERS[group] || group}组</h4>
+          <h4>Group ${group}</h4>
           <table>
-            <thead><tr><th>队伍</th><th>赛</th><th>胜</th><th>平</th><th>分</th><th>当前排名</th></tr></thead>
+            <thead><tr><th>Team</th><th>P</th><th>W</th><th>D</th><th>Pts</th><th>Rank</th></tr></thead>
             <tbody>${rows}</tbody>
           </table>
         </div>
@@ -956,11 +939,11 @@ function renderWorldCupStandings() {
 
       return `
         <div class="group-chip" tabindex="0">
-          <span class="group-chip-label">${GROUP_LETTERS[group] || group}组</span>
+          <span class="group-chip-label">Group ${group}</span>
           <div class="group-popover">
-            <h4>${GROUP_LETTERS[group] || group}组</h4>
+            <h4>Group ${group}</h4>
             <table>
-              <thead><tr><th>队伍</th><th>赛</th><th>胜</th><th>平</th><th>分</th><th>当前排名</th></tr></thead>
+              <thead><tr><th>Team</th><th>P</th><th>W</th><th>D</th><th>Pts</th><th>Rank</th></tr></thead>
               <tbody>${rows}</tbody>
             </table>
           </div>
@@ -987,27 +970,27 @@ function renderCs2Bracket() {
     <div class="bracket-scroll">
       <div class="bracket-tree">
         <div class="bracket-column">
-          <h4>第一阶段</h4>
+          <h4>Stage 1</h4>
           <div class="bracket-nodes">
-            ${renderCs2FlowNode("瑞士轮", "16 支队伍争夺 8 个晋级名额")}
-            ${renderCs2FlowNode("晋级", "8 队进入第二阶段")}
+            ${renderCs2FlowNode("Swiss Stage", "16 teams compete for 8 playoff spots")}
+            ${renderCs2FlowNode("Advance", "8 teams move on to Stage 2")}
           </div>
         </div>
         <div class="bracket-column">
-          <h4>第二阶段</h4>
+          <h4>Stage 2</h4>
           <div class="bracket-nodes">
-            ${renderCs2FlowNode("瑞士轮", "8 支种子队 + 8 支晋级队")}
-            ${renderCs2FlowNode("晋级", "8 队进入第三阶段")}
+            ${renderCs2FlowNode("Swiss Stage", "8 seeded teams + 8 qualifiers")}
+            ${renderCs2FlowNode("Advance", "8 teams move on to Stage 3")}
           </div>
         </div>
         <div class="bracket-column">
-          <h4>第三阶段</h4>
+          <h4>Stage 3</h4>
           <div class="bracket-nodes">
-            ${renderCs2FlowNode("瑞士轮", "8 支种子队 + 8 支晋级队")}
-            ${renderCs2FlowNode("晋级", "8 队进入淘汰赛")}
+            ${renderCs2FlowNode("Swiss Stage", "8 seeded teams + 8 qualifiers")}
+            ${renderCs2FlowNode("Advance", "8 teams move on to the playoffs")}
           </div>
         </div>
-        ${renderBracketColumn("淘汰赛", stageEvents("cs2", playoffStages))}
+        ${renderBracketColumn("Playoffs", stageEvents("cs2", playoffStages))}
       </div>
     </div>
   `;
@@ -1016,10 +999,10 @@ function renderCs2Bracket() {
 function renderBracketArt(type) {
   const isWorldCup = type === "worldcup";
   const image = isWorldCup ? "assets/brackets/worldcup-bracket-bg.png" : "assets/brackets/cs2-bracket-bg.png";
-  const alt = isWorldCup ? "世界杯晋级树视觉图" : "CS2 科隆 Major 晋级树视觉图";
+  const alt = isWorldCup ? "World Cup bracket visual" : "CS2 Cologne Major bracket visual";
   const tags = isWorldCup
-    ? ["小组赛", "三十二强", "十六强", "八强", "半决赛", "决赛"]
-    : ["第一阶段瑞士轮", "第二阶段瑞士轮", "第三阶段瑞士轮", "淘汰赛", "总决赛"];
+    ? ["Group Stage", "Round of 32", "Round of 16", "Quarter-finals", "Semi-finals", "Final"]
+    : ["Stage 1 Swiss", "Stage 2 Swiss", "Stage 3 Swiss", "Playoffs", "Grand Final"];
 
   return `
     <div class="bracket-art ${type}">
@@ -1057,7 +1040,7 @@ function renderNewsCard(item, type, index) {
         </div>
         <h4>${escapeHtml(item.title)}</h4>
         <p>${escapeHtml(item.summary)}</p>
-        <a href="${item.url}" ${external ? `target="_blank" rel="noreferrer"` : ""}>查看来源</a>
+        <a href="${item.url}" ${external ? `target="_blank" rel="noreferrer"` : ""}>View source</a>
       </div>
     </article>
   `;
@@ -1065,10 +1048,10 @@ function renderNewsCard(item, type, index) {
 
 function renderNewsTicker(type) {
   const items = window.NEWS_DATA?.[type] || [];
-  if (!items.length) return `<div class="empty">暂时没有新闻更新。</div>`;
+  if (!items.length) return `<div class="empty">No news updates yet.</div>`;
   const loopItems = [...items, ...items];
   return `
-    <div class="news-ticker ${type}" aria-label="${type === "worldcup" ? "世界杯新闻滚播" : "CS2 科隆 Major 新闻滚播"}">
+    <div class="news-ticker ${type}" aria-label="${type === "worldcup" ? "World Cup news ticker" : "CS2 Cologne Major news ticker"}">
       <div class="news-track">
         ${loopItems.map((item, index) => renderNewsCard(item, type, index)).join("")}
       </div>
@@ -1093,9 +1076,7 @@ function activeCs2StageNumber() {
   ) || 1;
 }
 
-function chineseStageNumber(stageNumber) {
-  return ["零", "一", "二", "三"][stageNumber] || stageNumber;
-}
+
 
 function cs2StageRecords(stageNumber) {
   const records = new Map();
@@ -1129,14 +1110,14 @@ function cs2StageRecords(stageNumber) {
 }
 
 function cs2RecordStatus(record) {
-  if (record.wins >= 3) return "已晋级";
-  if (record.losses >= 3) return "已淘汰";
-  if (record.wins === 2) return `${record.wins}-${record.losses} 晋级赛`;
-  if (record.losses === 2) return `${record.wins}-${record.losses} 淘汰赛`;
-  if (record.wins === 1 && record.losses === 1) return "1-1 组";
-  if (record.wins === 1) return "1-0 组";
-  if (record.losses === 1) return "0-1 组";
-  return "未开赛";
+  if (record.wins >= 3) return "Qualified";
+  if (record.losses >= 3) return "Eliminated";
+  if (record.wins === 2) return `${record.wins}-${record.losses} qualification match`;
+  if (record.losses === 2) return `${record.wins}-${record.losses} elimination match`;
+  if (record.wins === 1 && record.losses === 1) return "1-1 group";
+  if (record.wins === 1) return "1-0 group";
+  if (record.losses === 1) return "0-1 group";
+  return "Not started";
 }
 
 function renderCs2Standings() {
@@ -1154,9 +1135,9 @@ function renderCs2Standings() {
 
   return `
     <div class="standing-group">
-      <h4>第${chineseStageNumber(stageNumber)}阶段瑞士轮</h4>
+      <h4>Stage ${stageNumber} Swiss Standings</h4>
       <table>
-        <thead><tr><th>队伍</th><th>战绩</th><th>状态</th><th>当前积分排名</th></tr></thead>
+        <thead><tr><th>Team</th><th>Record</th><th>Status</th><th>Rating</th></tr></thead>
         <tbody>${rows}</tbody>
       </table>
     </div>
@@ -1165,10 +1146,10 @@ function renderCs2Standings() {
 
 function renderInsightBlock(type) {
   const isWorldCup = type === "worldcup";
-  const title = isWorldCup ? "世界杯态势" : "CS2 科隆 Major 态势";
+  const title = isWorldCup ? "World Cup Picture" : "CS2 Cologne Major Picture";
   const note = isWorldCup
-    ? "小组赛已开赛，积分榜按已结束比赛自动计算；进行中的比赛会在赛后计入。"
-    : `当前显示第${chineseStageNumber(activeCs2StageNumber())}阶段战绩，积分榜已按已结束比赛自动计算胜负。`;
+    ? "The group stage is underway. Standings are calculated from completed matches; live matches count once they finish."
+    : `Showing Stage ${activeCs2StageNumber()} results. Standings are calculated from completed matches.`;
   const news = renderNewsTicker(type);
   const standings = isWorldCup ? renderWorldCupStandings() : renderCs2Standings();
 
@@ -1176,18 +1157,18 @@ function renderInsightBlock(type) {
     <article class="insight-block ${type}">
       <div class="insight-head">
         <div>
-          <p class="eyebrow">${isWorldCup ? "实时新闻 · 小组积分" : "实时新闻 · 瑞士轮积分"}</p>
+          <p class="eyebrow">${isWorldCup ? "Live news · Group standings" : "Live news · Swiss standings"}</p>
           <h2>${title}</h2>
         </div>
         <p>${note}</p>
       </div>
       <div class="insight-grid">
         <section class="insight-panel">
-          <h3>实时新闻滚播</h3>
+          <h3>Live news ticker</h3>
           ${news}
         </section>
         <section class="insight-panel">
-          <h3>实时积分榜</h3>
+          <h3>Live standings</h3>
           <div class="standings-scroll ${isWorldCup ? "worldcup-standings" : ""}">${standings}</div>
         </section>
       </div>
@@ -1268,31 +1249,31 @@ function setupWorldCupGroupPopovers() {
 }
 
 function renderMatch(event) {
-  const parts = bjtParts(event);
+  const parts = etParts(event);
   const late = isLate(event);
   const favorite = state.favorites.has(event.id);
-  const groupText = event.group ? `${GROUP_LETTERS[event.group] || event.group}组` : "";
+  const groupText = event.group ? `Group ${event.group}` : "";
   const home = displayTeam(event, event.home);
   const away = displayTeam(event, event.away);
   const location = [displayVenue(event.venue), displayCity(event.city)].filter(Boolean).join(" · ");
   const note = displayNote(event.note || event.status);
-  const pending = event.status.includes("待定") || home.includes("待定") || away.includes("待定");
+  const pending = event.status.includes("TBD") || home.includes("TBD") || away.includes("TBD");
   const scoreText = Array.isArray(event.score) ? `${event.score[0]} : ${event.score[1]}` : "";
   const winnerText = event.winner ? displayTeam(event, event.winner) : "";
-  const completed = event.status === "已结束" || Boolean(scoreText && winnerText);
-  const matchLabel = event.matchLabel || `第 ${event.matchNo} 场`;
+  const completed = event.status === "Final" || Boolean(scoreText && winnerText);
+  const matchLabel = event.matchLabel || `Match ${event.matchNo}`;
   const recommended = isLikelyInteresting(event);
 
   return `
     <article class="match ${event.tournament} ${recommended ? "recommended" : ""}">
       <div class="time">
         <strong>${parts.time}</strong>
-        <span>北京时间</span>
+        <span>ET</span>
       </div>
       <div class="teams">
         <h2 class="matchup">
           ${renderTeam(event, event.home)}
-          <span class="versus">对阵</span>
+          <span class="versus">vs</span>
           ${renderTeam(event, event.away)}
         </h2>
         <div class="meta">
@@ -1301,11 +1282,11 @@ function renderMatch(event) {
           ${groupText ? `<span class="pill">${groupText}</span>` : ""}
           <span class="pill">${matchLabel}</span>
           ${scoreText ? `<span class="pill result">${scoreText}</span>` : ""}
-          ${completed ? `<span class="pill done">已结束</span>` : ""}
-          ${winnerText ? `<span class="pill win">胜者：${winnerText}</span>` : ""}
-          ${recommended ? `<span class="pill recommended-pill">猜我会看</span>` : ""}
-          ${late ? `<span class="pill late">深夜场</span>` : ""}
-          ${pending ? `<span class="pill warn">${STATUS_NAMES[event.status] || "待定"}</span>` : ""}
+          ${completed ? `<span class="pill done">Final</span>` : ""}
+          ${winnerText ? `<span class="pill win">Winner: ${winnerText}</span>` : ""}
+          ${recommended ? `<span class="pill recommended-pill">Recommended</span>` : ""}
+          ${late ? `<span class="pill late">Late night</span>` : ""}
+          ${pending ? `<span class="pill warn">${STATUS_NAMES[event.status] || "TBD"}</span>` : ""}
         </div>
         <div class="badges">
           ${location ? `<span class="pill">${location}</span>` : ""}
@@ -1313,7 +1294,7 @@ function renderMatch(event) {
           ${renderHighlights(event)}
         </div>
       </div>
-      <button class="favorite ${favorite ? "active" : ""}" type="button" aria-label="收藏 ${home} 对阵 ${away}" data-id="${event.id}">
+      <button class="favorite ${favorite ? "active" : ""}" type="button" aria-label="Favorite ${home} vs ${away}" data-id="${event.id}">
         ${favorite ? "★" : "☆"}
       </button>
     </article>
@@ -1326,19 +1307,19 @@ function render() {
 
   const groups = new Map();
   for (const event of filteredEvents()) {
-    const key = bjtParts(event).dayKey;
+    const key = etParts(event).dayKey;
     if (!groups.has(key)) groups.set(key, []);
     groups.get(key).push(event);
   }
 
   if (!groups.size) {
-    els.timeline.innerHTML = `<div class="empty">没有符合筛选条件的比赛。</div>`;
+    els.timeline.innerHTML = `<div class="empty">No matches fit the current filters.</div>`;
     return;
   }
 
   els.timeline.innerHTML = [...groups.entries()]
     .map(([day, events]) => {
-      const count = `${events.length} 场`;
+      const count = `${events.length} matches`;
       return `
         <section class="day">
           <div class="day-title"><span>${day} · ${count}</span></div>
@@ -1401,11 +1382,11 @@ els.timeline.addEventListener("click", (event) => {
 const updatedAt = [window.SCHEDULE_UPDATES?.updatedAt, window.NEWS_DATA?.updatedAt, DATA.generatedAt]
   .filter(Boolean)
   .sort((a, b) => new Date(b) - new Date(a))[0];
-els.generatedAt.textContent = `更新数据时间：${new Date(updatedAt).toLocaleString("zh-CN", {
-  timeZone: BJT,
+els.generatedAt.textContent = `Data updated: ${new Date(updatedAt).toLocaleString("en-US", {
+  timeZone: ET,
 })}`;
 
-els.sources.innerHTML = `来源：${DATA.sources
+els.sources.innerHTML = `Sources: ${DATA.sources
   .map((source) => `<a href="${source.url}" target="_blank" rel="noreferrer">${SOURCE_NAMES[source.name] || source.name}</a>`)
   .join(" · ")}`;
 

@@ -1,69 +1,69 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>我的观赛手札</title>
+    <title>My Match Notebook</title>
     <link rel="stylesheet" href="styles.css?v=20260608-wc-standings5" />
   </head>
   <body>
     <header class="topbar">
       <div>
-        <p class="eyebrow">北京时间 · 个人观赛表</p>
-        <h1>我的观赛手札</h1>
+        <p class="eyebrow">Eastern Time · Personal watchlist</p>
+        <h1>My Match Notebook</h1>
       </div>
       <div class="source-note" id="generatedAt"></div>
     </header>
 
     <main>
-      <section class="overview" aria-label="赛程概览">
+      <section class="overview" aria-label="Schedule overview">
         <article>
           <span id="totalCount">0</span>
-          <p>总场次</p>
+          <p>Total matches</p>
         </article>
         <article>
           <span id="nextCount">0</span>
-          <p>未来比赛</p>
+          <p>Upcoming</p>
         </article>
         <article>
           <span id="lateCount">0</span>
-          <p>23:00 后</p>
+          <p>Late night</p>
         </article>
         <article>
           <span id="favoriteCount">0</span>
-          <p>已收藏</p>
+          <p>Favorites</p>
         </article>
       </section>
 
-      <section class="controls" aria-label="筛选赛程">
-        <div class="tabs" role="tablist" aria-label="赛事">
-          <button class="tab active" data-filter="all" type="button">全部</button>
-          <button class="tab" data-filter="worldcup" type="button">世界杯</button>
-          <button class="tab" data-filter="cs2" type="button">CS2 科隆</button>
+      <section class="controls" aria-label="Filter schedule">
+        <div class="tabs" role="tablist" aria-label="Tournaments">
+          <button class="tab active" data-filter="all" type="button">All</button>
+          <button class="tab" data-filter="worldcup" type="button">World Cup</button>
+          <button class="tab" data-filter="cs2" type="button">CS2 Cologne</button>
         </div>
         <label class="search">
-          <span>搜索</span>
-          <input id="searchInput" type="search" placeholder="队伍、阶段、城市、场馆" />
+          <span>Search</span>
+          <input id="searchInput" type="search" placeholder="Team, stage, city, venue" />
         </label>
         <label class="toggle">
           <input id="futureOnly" type="checkbox" />
-          <span>只看未来</span>
+          <span>Future only</span>
         </label>
         <label class="toggle">
           <input id="lateOnly" type="checkbox" />
-          <span>深夜场</span>
+          <span>Late night</span>
         </label>
         <label class="toggle">
           <input id="normalTimeOnly" type="checkbox" />
-          <span>正常时间</span>
+          <span>Normal hours</span>
         </label>
         <label class="toggle">
           <input id="favoritesOnly" type="checkbox" />
-          <span>收藏</span>
+          <span>Favorites</span>
         </label>
       </section>
 
-      <section class="insights" id="tournamentInsights" aria-label="晋级树和积分榜"></section>
+      <section class="insights" id="tournamentInsights" aria-label="Bracket and standings"></section>
 
       <section class="timeline" id="timeline" aria-live="polite"></section>
     </main>
